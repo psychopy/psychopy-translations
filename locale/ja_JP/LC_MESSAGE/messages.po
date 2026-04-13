@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 16:24+0000\n"
+"POT-Creation-Date: 2026-04-13 03:13+0000\n"
 "PO-Revision-Date: 2025-07-16 14:09+0900\n"
 "Last-Translator: Hiroyuki Sogo <hsogo12600@gmail.com>\n"
 "Language-Team: Hiroyuki Sogo <hsogo12600@gmail.com>\n"
@@ -20,37 +20,37 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-1: app/Resources\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:38
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:102
 #, python-brace-format
 msgid "Your stimulus size exceeds the {dimension} dimension of your window."
 msgstr "刺激のサイズがウィンドウの{dimension}軸の範囲を超えています."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:64
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:86
 #, python-brace-format
 msgid "Your stimulus size is smaller than 1 pixel ({dimension} dimension)."
 msgstr "刺激のサイズが1ピクセル未満です({dimension}軸方向)."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:99
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:50
 #, python-brace-format
 msgid ""
 "Your stimulus position exceeds the {dimension} dimension of your window."
 msgstr "刺激の位置がウィンドウの{dimension}軸の範囲を超えています."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:95
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:139
 #, python-brace-format
 msgid ""
 "Your stimulus {type} time of {time} is less than a screen refresh for a "
 "{Hz}Hz monitor."
 msgstr "刺激の{type}が{time}秒に設定されていますが, これは{Hz}Hzのモニターで描画できる最短の長さよりも短いです."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:22
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:177
 #, python-brace-format
 msgid ""
 "Your stimulus {type} time of {time} seconds cannot be accurately presented "
 "for {time} on a {Hz}Hz monitor."
 msgstr "刺激の{type}が{time}秒に設定されていますが, これは{Hz}Hzのモニターでは正確に描画できる長さではありません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:49
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:58
 #, python-brace-format
 msgid ""
 "Experiment was built in a future version of PsychoPy ({version}), we "
@@ -60,7 +60,7 @@ msgstr ""
 "実験が現在使用中のものより新しいバージョンのPsychoPy({version})で作成されています. PsychoPyをアップデートするか, "
 "実験の設定ダイアログの\"使用するPsychoPyのバージョン\"をこのバージョンに設定することを勧めます."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:158
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:38
 #, python-brace-format
 msgid ""
 "Experiment was built in a past version of PsychoPy ({version}), saving it in"
@@ -69,27 +69,27 @@ msgstr ""
 "実験が現在使用中のものより旧いバージョンのPsychoPy({version})で作成されています. "
 "現在のバージョンのPsychoPyで保存すると旧バージョンで認識されないパラメータが追加される可能性があります."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:26
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:154
 #, python-brace-format
 msgid ""
 "Your stimulus start {type} exceeds the stop {type}. Consider using a {type} "
 "duration."
 msgstr "刺激の開始({type})が終了({type})より後です. 実行時間による指定を検討してください."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:173
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:30
 #, python-brace-format
 msgid ""
 "Your stimulus {type} type {frameType} must be expressed as a whole number."
 msgstr "刺激の{type}が{frameType}の場合は値が整数でなければいけません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:30
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:54
 #, python-brace-format
 msgid ""
 "Component {component} has stop time set as a duration, but doesn't have a "
 "start time"
 msgstr "{component}は[終了]が[実行時間]に設定されていますが開始時刻が設定されていません"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:72
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:70
 #, python-brace-format
 msgid ""
 "Microphone component `{name}` given blank stop time, using max duration "
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 "Microphoneコンポーネント`{name}`に終了時刻が設定されていません. バッファサイズ({stopVal}s)で可能な最大時間に設定します."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:169
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:135
 #, python-brace-format
 msgid ""
 "Python Syntax Error in '{codeTab}' tab. See '{code}' on line number "
@@ -106,7 +106,7 @@ msgstr ""
 "'{codeTab}'タブに含まれるコードにPythonの文法エラーがあります. "
 "'{codeTab}'の{lineNumber}行目の'{code}'を確認してください."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:56
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:42
 #, python-brace-format
 msgid ""
 "JavaScript Syntax Error in '{codeTab}' tab. See '{lineNumber}' in the "
@@ -115,18 +115,18 @@ msgstr ""
 "'{codeTab}'タブにJavaScriptの構文エラーがあります. "
 "'{codeTab}'タブの'{lineNumber}'行目を確認してください."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:147
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:26
 #, python-brace-format
 msgid ""
 "The component {name} is currently disabled and will not be written to your "
 "experiment script."
 msgstr "コンポーネント {name} が無効化されているため実験のスクリプトに出力されません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:161
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:11
 msgid "Cannot calculate parameter."
 msgstr "パラメータを計算できません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:151
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:62
 #, python-brace-format
 msgid ""
 "Builder cannot interpret value \"{param.val}\" of {param.label} for "
@@ -136,32 +136,32 @@ msgstr ""
 "Builderは{component.type}コンポーネント\"{component.params[name].val}\"の{param.label}の\"{param.val}\"を解釈できません"
 " ($記号が適切に使われていません)."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:143
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:34
 #, python-brace-format
 msgid ""
 "Font `{param.val}` not found locally, will check Google Fonts on next run."
 msgstr "{param.val}フォントが見つからないので, 次にこの実験を実行する時にGoogle Fontsから取得を試みます."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:135
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:18
 #, python-brace-format
 msgid "Recording device '{device}' not found, using default device instead."
 msgstr "録音デバイス '{device}' が見つかりません. 標準のデバイスを使用します."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:18
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:46
 #, python-brace-format
 msgid ""
 "The component or routine '{comp}' is only implemented online, so will do "
 "nothing when running locally."
 msgstr "ComponentまたはRoutineの '{comp}' はオンラインでのみ実装されています. ローカルでの実行時は無視されます."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:165
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:22
 #, python-brace-format
 msgid ""
 "The component or routine '{comp}' is only implemented locally, so will do "
 "nothing when running online."
 msgstr "ComponentまたはRoutineの '{comp}' はローカルでのみ実装されています. オンラインでの実行時は無視されます."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:76
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:146
 #, python-brace-format
 msgid ""
 "Editable textbox component {textbox} and keyboard component {keyboard} in "
@@ -170,20 +170,20 @@ msgstr ""
 "編集可能なTextboxコンポーネント {textbox} とキーボードコンポーネント {keyboard} "
 "が同じルーチンに配置されていて競合する可能性があります"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:45
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:14
 msgid ""
 "Experiment includes components or routines which use eyetracking, but no eye"
 " tracker is configured."
 msgstr "視線測定を使用するコンポーネントまたはルーチンが実験に含まれていますが, アイトラッカーが設定されていません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:68
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:124
 #, python-brace-format
 msgid ""
 "A {eyetracker} eye tracker has been configured, but no calibration routine "
 "is present."
 msgstr "アイトラッカー {eyetracker} が設定されましたが, キャリブレーションルーチンがフローにありません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:154
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:142
 #, python-brace-format
 msgid ""
 "As {brand} eyetrackers do not support animations in their calibration "
@@ -191,72 +191,72 @@ msgid ""
 msgstr ""
 "{brand}のアイトラッカーはキャリブレーション中のターゲットのアニメーションをサポートしていないので, アニメーションの設定は無効になります."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:11
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:105
 #, python-brace-format
 msgid "Eyetrackers by {brand} do not support manual pacing"
 msgstr "{brand}のアイトラッカーはキー押しによるキャリブレーション進行モードをサポートしていません"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:42
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:90
 msgid ""
 "Window mode is set to be windowed, but eyetracking requires the window to be"
 " full screen."
 msgstr "フルスクリーンモードが解除されていますが, 視線測定をおこなうにはフルスクリーンモードにする必要があります."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:107
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:82
 msgid ""
 "A monitor config is required for accurate eyetracking measurements, but none"
 " was found."
 msgstr "正確な視線測定にはモニター設定が必要ですが, 設定が見つかりません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:115
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:162
 msgid ""
 "Eye tracker experiments should use 'ioHub' as the Input -> Keyboard Backend "
 "setting"
 msgstr "アイトラッカーを使う実験では入力はioHubにする必要があります -> キーボードバックエンドの設定"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:119
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:98
 #, python-brace-format
 msgid "Audio transcription service \"{transcriber}\" is not supported online."
 msgstr "音声文字変換サービス {transcriber} はオンラインでサポートされません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:88
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:150
 #, python-brace-format
 msgid "Audio transcription service \"{transcriber}\" is not supported offline."
 msgstr "音声文字変換サービス {transcriber} はオフラインでサポートされません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:123
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:173
 #, python-brace-format
 msgid ""
 "Chosen transcriber '{engine}' requires an API key, please supply one in "
 "Preferences."
 msgstr "音声文字変換サービス '{engine}' を使用するにはAPIキーが必要です. 設定ダイアログでキーを設定してください."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:139
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:66
 #, python-brace-format
 msgid ""
 "Column name '{param}' in conditions file already exists as a variable in "
 "this experiment ({category})."
 msgstr "条件ファイルの列名 '{param}' はこの実験({category})で変数としてすでに使用されています."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:91
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:112
 #, python-brace-format
 msgid "Column name '{param}' is likely to cause name clashes. {msg}."
 msgstr "列名 '{param}' はエラーの原因となり得ます. {msg}."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:34
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:78
 #, python-brace-format
 msgid ""
 "Device parameter of microphone component \"{name}\" will not be used online."
 msgstr "Microphoneコンポーネントのデバイスパラメータ \"{name}\" はオンラインで使用されません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:177
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:158
 #, python-brace-format
 msgid ""
 "The file you are attempting to run does not seem to exist, the full path "
 "supplied to Runner was {path}"
 msgstr "実行しようとしたファイルが存在しません. 実行しようとしたファイルのフルパスは {path} です."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:131
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:166
 #, python-brace-format
 msgid ""
 "Component {name} comes from the plugin {plugin}, which is either not "
@@ -264,14 +264,14 @@ msgid ""
 msgstr ""
 "コンポーネント {name} は {plugin} プラグインに由来しますが, プラグインがインストールされていないか有効になっていません."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:84
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:128
 #, python-brace-format
 msgid ""
 "Color space attribute `.{colorSpaceAttrib}` is no longer in use, as colors "
 "are no longer tied to one space."
 msgstr "色は特定の色空間に関連付けられなくなったため, 属性`.{colorSpaceAttrib}`は廃止されました."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:111
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:109
 #, python-brace-format
 msgid ""
 "RGB attribute `.{rgbAttrib}` is no longer in use, as non-RGB colors now "
@@ -306,7 +306,7 @@ msgstr "編集"
 msgid "Routine settings"
 msgstr "Routineの設定"
 
-#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:89
+#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:90
 msgid "Help"
 msgstr "ヘルプ"
 
@@ -407,7 +407,6 @@ msgstr "新しいRoutine"
 msgid "Find in experiment..."
 msgstr "実験内を検索..."
 
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:20
 #: psychopy-studio/src/lib/dialogs/colorPicker/HsvColor.svelte:42
 msgid "Value"
 msgstr "値"
@@ -416,7 +415,7 @@ msgstr "値"
 msgid "Field"
 msgstr "フィールド"
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte:54
+#: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte:55
 #: psychopy/psychopy/experiment/components/settings/__init__.py:235
 msgid "Default"
 msgstr "既定値"
@@ -426,7 +425,7 @@ msgstr "既定値"
 msgid "Delete"
 msgstr "削除"
 
-#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:157
+#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:158
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -442,7 +441,7 @@ msgstr "PsychoPy3へようこそ！"
 msgid "New..."
 msgstr "新規..."
 
-#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:101
+#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:102
 msgid "Yes"
 msgstr "はい"
 
@@ -461,7 +460,7 @@ msgstr "警告"
 msgid "Screen"
 msgstr "スクリーン"
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte:61
+#: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte:62
 msgid "final"
 msgstr "最終"
 
@@ -477,9 +476,7 @@ msgstr "ローカルフォルダ:"
 msgid "You are not logged in to Pavlovia. Please log in to sync project."
 msgstr "Pavloviaにログインしていません. プロジェクトを同期するにはログインしてください."
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:18
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:11
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:11
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:13
 #: psychopy/psychopy/experiment/components/_base.py:77
 #: psychopy/psychopy/experiment/loops.py:203
 #: psychopy/psychopy/experiment/loops.py:604
@@ -530,7 +527,7 @@ msgstr "新しいプロジェクト"
 msgid "Search projects..."
 msgstr "プロジェクトを検索..."
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:17
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:12
 msgid "Path"
 msgstr "パス"
 
@@ -902,7 +899,7 @@ msgstr "位置で指定した座標に窓のどの部分を揃えますか?"
 #: psychopy/psychopy/experiment/components/movie/__init__.py:122
 #: psychopy/psychopy/experiment/components/polygon/__init__.py:94
 #: psychopy/psychopy/experiment/components/progress/__init__.py:95
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:158
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:165
 msgid "Anchor"
 msgstr "位置揃え"
 
@@ -1020,6 +1017,7 @@ msgstr "ボタンのテキスト"
 msgid "The font name (e.g. Comic Sans)"
 msgstr "フォント名を指定します (例: Comic Sans)"
 
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:192
 #: psychopy/psychopy/experiment/components/button/__init__.py:104
 #: psychopy/psychopy/experiment/components/form/__init__.py:96
 #: psychopy/psychopy/experiment/components/slider/__init__.py:176
@@ -1044,32 +1042,32 @@ msgid "Letter height"
 msgstr "文字の高さ"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:114
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:127
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:134
 msgid "Should text be italic?"
 msgstr "イタリック体のフォントを使用します"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:115
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:128
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:135
 msgid "Italic"
 msgstr "イタリック"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:119
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:132
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:139
 msgid "Should text be bold?"
 msgstr "ボールド体のフォントを使用します"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:120
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:133
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:140
 msgid "Bold"
 msgstr "ボールド"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:124
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:142
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:149
 msgid "Defines the space between text and the textbox border"
 msgstr "テキストボックスの枠線と文字との間隔を指定します"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:125
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:143
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:150
 msgid "Padding"
 msgstr "枠内の余白"
 
@@ -1078,12 +1076,12 @@ msgid "Should text anchor to the top, center or bottom of the box?"
 msgstr "テキストをどのように揃えますか？"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:144
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:192
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:199
 msgid "Textbox border width"
 msgstr "テキストボックスの枠線の幅"
 
 #: psychopy/psychopy/experiment/components/button/__init__.py:145
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:193
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:200
 msgid "Border width"
 msgstr "枠線の幅"
 
@@ -1609,7 +1607,7 @@ msgstr "空間周波数"
 #: psychopy/psychopy/experiment/components/movie/__init__.py:121
 #: psychopy/psychopy/experiment/components/polygon/__init__.py:93
 #: psychopy/psychopy/experiment/components/progress/__init__.py:94
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:157
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:164
 msgid "Which point on the stimulus should be anchored to its exact position?"
 msgstr "位置で指定した座標に刺激のどの部分を揃えますか?"
 
@@ -1701,6 +1699,7 @@ msgstr "Image: 画像(bmp, jpg, tif...)を描画します"
 msgid "The image to be displayed - a filename, including path"
 msgstr "描画する画像ファイルをパスも含めて指定します"
 
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:224
 #: psychopy/psychopy/experiment/components/image/__init__.py:52
 #: psychopy/psychopy/experiment/components/panorama/__init__.py:72
 msgid "Image"
@@ -3533,6 +3532,7 @@ msgstr ""
 "\n"
 "改行もできます"
 
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:69
 #: psychopy/psychopy/experiment/components/text/__init__.py:56
 #: psychopy/psychopy/experiment/components/textbox/__init__.py:73
 msgid "Text"
@@ -3590,51 +3590,51 @@ msgstr "水平に反転"
 msgid "Flip vertical"
 msgstr "垂直に反転"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:137
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:144
 msgid "Defines the space between lines"
 msgstr "行間の間隔を指定します"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:138
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:145
 msgid "Line spacing"
 msgstr "行の間隔"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:172
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:179
 msgid "How should text be laid out within the box?"
 msgstr "テキストをどのように揃えますか?"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:173
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:180
 msgid "Alignment"
 msgstr "行揃え"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:181
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:188
 msgid "If the text is bigger than the textbox, how should it behave?"
 msgstr "文字列がテキストボックスに入りきらない場合にどう処理しますか?"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:182
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:189
 msgid "Overflow"
 msgstr "オーバーフロー"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:186
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:193
 msgid "If specified, adds a speech bubble tail going to that point on screen."
 msgstr "スクリーン上の座標を指定すると, その位置に吹き出しの尾を描画します."
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:187
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:194
 msgid "Speech point [x,y]"
 msgstr "吹き出しの尾 [x,y]"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:197
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:204
 msgid "Should textbox be editable?"
 msgstr "テキストボックスを編集可能にしますか？"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:198
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:205
 msgid "Editable?"
 msgstr "編集可能"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:203
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:210
 msgid "Automatically record all changes to this in the log file"
 msgstr "このコンポーネントへの変更を全て自動的にログファイルに記録します"
 
-#: psychopy/psychopy/experiment/components/textbox/__init__.py:204
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:211
 msgid "Auto log"
 msgstr "変更を自動記録"
 
@@ -5900,7 +5900,7 @@ msgstr "HMDを検出できません. 接続を確認してやり直してくだ�
 msgid "PILOTING: Switch to run mode before testing."
 msgstr "PILOTING: Switch to run mode before testing."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:52
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:131
 #, python-brace-format
 msgid ""
 "Speaker {deviceName} is set to \"Exclusive low latency\" mode. As resampling"
@@ -5910,7 +5910,7 @@ msgstr ""
 "スピーカー {deviceName} は\"排他的な短遅延\"モードに設定されています. このモードはいくつか欠点もありますが, "
 "再サンプリングが有効なので, \"共有可能な範囲で短遅延\"モードに対して一定の利点があります."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:103
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:74
 #, python-brace-format
 msgid ""
 "Multiple Components in the same Routine are validated by {validator}, please"
@@ -5919,12 +5919,12 @@ msgstr ""
 "同一ルーチンに配置された複数のコンポーネントが {validator} で検証されようとしています. "
 "これらのコンポーネントのタイミングが重ならないよう注意してください."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:14
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:169
 #, python-brace-format
 msgid "Static Component `{name}` given infinite stop time"
 msgstr "Staticコンポーネント `{name}` の終了が指定されていません"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:80
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:120
 #, python-brace-format
 msgid ""
 "Font `{font} {style}` not available in weight `{weight}`, component `{name}`"
@@ -5933,7 +5933,7 @@ msgstr ""
 "フォント `{font} {style}`はウェイト `{weight}`で使用できません. コンポーネント `{name}`のフォントはOpen "
 "Sans Regularになります."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:60
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:94
 #, python-brace-format
 msgid ""
 "Could not find any config for device {deviceName}, please setup this device "
@@ -5944,6 +5944,7 @@ msgstr "{deviceName}デバイスの設定が見つかりません. Builderから
 msgid "Device manager"
 msgstr "デバイスマネージャ"
 
+#: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte:142
 #: psychopy-studio/src/lib/paramCtrls/ctrls/FileListCtrl.svelte:111
 msgid "Add item"
 msgstr "項目を追加"
@@ -6300,7 +6301,7 @@ msgstr "全てをカスタマイズ:"
 msgid "PsychoPy"
 msgstr "PsychoPy"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:127
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:116
 #, python-brace-format
 msgid ""
 "Cannot validate stop time for `{name}` as it stops on final frame of Routine"
@@ -6652,269 +6653,259 @@ msgstr ""
 msgid "How many buttons this button box has."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:19
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:14
 msgid "BIDS Event Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:20
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:15
 msgid "Trial Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:21
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:16
 msgid "Link Component"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:22
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:17
 msgid "Linked Attbributes"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:23
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:15
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:18
 msgid "Onset"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:24
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:16
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:19
 msgid "Duration"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:25
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:20
 msgid "Event Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:26
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:21
 msgid "Sample Point"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:27
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:22
 msgid "Response Time"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:28
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:23
 msgid "Event Value"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:29
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:24
 msgid "HED Tags (Sidecar Preferred)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:30
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:25
 msgid "Stimulus File"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:31
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:26
 msgid "Database ID"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:32
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:27
 msgid "Database Reference"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:33
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:28
 msgid "Custom Columns"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:34
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:16
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:26
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:29
 msgid "Add to log file"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:47
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:43
 msgid "BIDS Event: Records experiment events in BIDS-valid format"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:75
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:70
 msgid ""
 "Choose whether this is a Task-related event (requires onset/duration) or a "
 "Behavioral event (timing optional)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:89
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:84
 msgid ""
 "Categorical label identifying the experimental condition or trial type. Used"
 " to group similar events for analysis."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:104
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:99
 msgid ""
 "Select a PsychoPy component to automatically extract timing and property "
 "information"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:118
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:113
 msgid ""
 "Select which attributes to automatically extract from the linked component"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:147
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:142
 msgid ""
 "When enabled, manually entered values will take precedence over "
 "automatically extracted values"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:155
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:150
 msgid "Manually set values"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:160
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:155
 msgid ""
 "Time in seconds when the event started, measured from the beginning of the "
 "recording"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:173
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:168
 msgid ""
 "Length of the event in seconds. Must be zero or positive. Use 'n/a' if "
 "duration is unknown."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:186
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:181
 msgid ""
 "Time in seconds between stimulus presentation and participant's response"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:199
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:194
 msgid ""
 "Category of stimulus or response (e.g., TextStim, ImageStim, KeyResponse)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:227
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:222
 msgid ""
 "Path to stimulus file relative to experiment root; recorded in events.tsv "
 "and necessary tocopied to BIDS/stimuli folder"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:238
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:174
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:233
 msgid "References within a database"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:249
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:187
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:244
 msgid "References to a database"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:263
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:205
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:258
 msgid ""
 "Onset of the event according to the sampling scheme of the recorded modality"
 " (that is, referring to the raw data file that the events.tsv file "
 "accompanies)."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:277
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:220
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:272
 msgid ""
 "Marker value associated with the event (for example, the value of a TTL "
 "trigger that was recorded at the onset of the event)."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:292
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:287
 #, python-brace-format
 msgid ""
 "Define additional columns for the events.tsv file as a Python dictionary: "
 "{'column_name': 'value'}"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:306
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:301
 msgid ""
 "It is strongly advised to use the .json sidecar in the BidsExport instead. "
 "Using HED tags here will disable automated HED tag generation via the "
 "sidecar."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:322
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:317
 msgid ""
 "Include this event's data in the experiment's log file. Note: per-event "
 "logging can add overhead and may affect timing in performance-critical runs."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:331
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:81
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:151
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:326
 msgid "Add event to log"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:18
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:13
 msgid "Add runs to event file name"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:19
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:156
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:14
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:152
 msgid "Dataset Description"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:20
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:15
 msgid "Session"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:21
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:16
 msgid "BIDS Log Level"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:35
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:31
 msgid ""
 "BIDS Export: Creates a standardized BIDS directory structure and generates "
 "required metadata files according to BIDS specifications"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:49
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:45
 msgid "Name of the Routine."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:50
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:46
 msgid "Routine Name"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:53
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:49
 msgid ""
 "Root name of the dataset (parent folder name) if this task is part of a "
 "larger experiment"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:64
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:60
 msgid "Dataset Name"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:68
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:64
 msgid "License of the dataset"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:88
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:84
 msgid "Dataset License"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:91
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:87
 msgid "BIDS defined data type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:109
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:105
 msgid "Data Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:113
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:109
 msgid ""
 "Optional label to distinguish between different acquisition parameters or "
 "conditions across multiple runs of the same task"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:124
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:120
 msgid "Acquisition Label"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:128
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:124
 msgid "Override the session label. Leave empty to use expInfo['session']."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:143
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:139
 msgid ""
 "Path to a dataset_description.json. If not provided, a default template will"
 " be used. Specifying a file will overwrite any existing "
 "dataset_description.json"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:161
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:157
 msgid ""
 "Path to the events/beh sidecar file. Accepts a complete .json sidecar or a "
 "4-column spreadsheet in CSV, TSV, or XLSX format (only for HED tags). "
@@ -6923,147 +6914,66 @@ msgid ""
 "execution."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:175
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:171
 msgid "Events/Beh Sidecar"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:179
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:175
 msgid ""
 "Generate preliminary HED metadata from the events file; may not fully comply"
 " with BIDS standards."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:187
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:183
 msgid "Generate HED Metadata (experimental)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:191
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:187
 msgid ""
 "Copy all stimulus files referenced in the events file to the BIDS dataset's "
 "/stimuli directory"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:199
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:195
 msgid "Include Stimuli"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:203
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:199
 msgid ""
 "Include source code, condition files, and a directory structure file in the "
 "BIDS dataset's /code directory"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:212
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:208
 msgid "Include Source Code, Structure & Condition Files"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:216
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:212
 msgid ""
 "Generate and include requirements.txt with Python and package versions in "
 "the BIDS dataset"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:224
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:220
 msgid "Include Dependencies"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:228
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:224
 msgid ""
 "Controls the run label in event filenames. True = auto-increment (run-1, "
 "run-2, …); False = omit run entity; string (e.g. '4a') = use as a fixed run "
 "label (run-4a)."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:239
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:235
 msgid "Run Label"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:243
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:239
 msgid ""
 "Verbosity level for psychopy-bids messages during runtime. DEBUG shows "
 "detailed internals, INFO shows normal progress, WARN/ERROR show only "
 "important issues."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:15
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:25
-msgid "Custom columns"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:59
-msgid "Add columns as a dictionary"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:74
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:144
-msgid "Should the event be saved in the log file too?"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:17
-msgid "Trial type"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:18
-msgid "Sample"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:19
-msgid "Response time"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:21
-msgid "HED"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:22
-msgid "Stimulus file"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:23
-msgid "Identifier"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:24
-msgid "Database"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:85
-msgid ""
-"Onset (in seconds) of the event, measured from the beginning of the "
-"acquisition of the first data point stored in the corresponding task data "
-"file."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:100
-msgid ""
-"Duration of the event (measured from onset) in seconds. Must always be "
-"either zero or positive (or n/a if unavailable)."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:115
-msgid ""
-"Primary categorisation of each trial to identify them as instances of the "
-"experimental conditions."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:130
-msgid "Response time measured in seconds."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:158
-msgid ""
-"Indicates the location of the stimulus file. The values represent a path "
-"relative to the /stimuli directory. Paths that include the stimuli/ prefix "
-"will also be correctly interpreted by removing the redundant prefix, "
-"ensuring proper placement within the /stimuli directory."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:235
-msgid "Hierarchical Event Descriptor (HED) Tag"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:248
-msgid "Add additional columns as a dictionary"
 msgstr ""
 
 #: psychopy-cedrus/psychopy_cedrus/components/lumina.py:14
@@ -7812,7 +7722,7 @@ msgstr ""
 msgid "Failed to load details for "
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackagesPanel.svelte:64
+#: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackagesPanel.svelte:65
 msgid "Searching PyPi..."
 msgstr ""
 
@@ -7825,7 +7735,7 @@ msgid "Failed to get plugins"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/preferences/PrefsDialog.svelte:12
-#: psychopy-studio/src/lib/paramCtrls/ctrls/MultipleChoiceCtrl.svelte:25
+#: psychopy-studio/src/lib/paramCtrls/ctrls/MultipleChoiceCtrl.svelte:26
 #: psychopy-studio/src/lib/paramCtrls/ctrls/RichChoiceCtrl.svelte:22
 msgid "Loading..."
 msgstr ""
@@ -7846,7 +7756,9 @@ msgstr ""
 msgid "Open color picker"
 msgstr ""
 
+#: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte:123
 #: psychopy-studio/src/lib/paramCtrls/ctrls/FileListCtrl.svelte:80
+#: psychopy-studio/src/routes/runner/files/Panel.svelte:28
 msgid "Remove item"
 msgstr ""
 
@@ -7942,11 +7854,11 @@ msgstr ""
 msgid "Delete unrecognised param?"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte:53
+#: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte:54
 msgid "Fetching versions from GitHub..."
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte:55
+#: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte:56
 msgid "latest"
 msgstr ""
 
@@ -8023,7 +7935,7 @@ msgid "Successfully started Python"
 msgstr ""
 
 #: psychopy-studio/src/lib/utils/buttons/Button.svelte:72
-#: psychopy-studio/src/lib/utils/buttons/IconButton.svelte:71
+#: psychopy-studio/src/lib/utils/buttons/IconButton.svelte:72
 msgid "Failed, click to show error"
 msgstr ""
 
@@ -8342,15 +8254,15 @@ msgstr ""
 msgid "Data Files"
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:26
+#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:27
 msgid "Open folder..."
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:43
+#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:44
 msgid "Up to parent directory"
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:52
+#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:53
 msgid "Navigate to current file"
 msgstr ""
 
@@ -8399,7 +8311,7 @@ msgstr ""
 msgid "PsychoPy Runner Configurations"
 msgstr ""
 
-#: psychopy-studio/src/routes/runner/files/Panel.svelte:35
+#: psychopy-studio/src/routes/runner/files/Panel.svelte:36
 msgid "Add file"
 msgstr ""
 
@@ -8855,6 +8767,237 @@ msgstr ""
 #: psychopy-visionscience/psychopy_visionscience/components/radial/__init__.py:120
 msgid "Visible Wedge"
 msgstr ""
+
+#: psychopy-studio/src/lib/utils/dialog/Dialog.svelte:71
+msgid "Close"
+msgstr "閉じる"
+
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:18
+msgid "Add a text marker in the hdf5 file"
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:62
+msgid "Send when..."
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:63
+msgid "When to send the marker?"
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:70
+msgid "Text to send to the eyetracker (128 characters max)"
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:75
+msgid "Category"
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py:76
+msgid "Optional grouping text for the message (32 characters max)"
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:128
+msgid "Syntax to use for inline text formatting"
+msgstr ""
+
+#: psychopy/psychopy/experiment/components/textbox/__init__.py:129
+msgid "Formatting style"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:47
+msgid ""
+"BIDS Onset Timer: synchronise with hardware and set event time reference."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:70
+msgid "Trigger Mode"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:79
+msgid "Key to wait for (MRI scanners typically send '5')."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:80
+msgid "Trigger Key"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:92
+msgid ""
+"Parallel port address (e.g. 0x0378). Change via Preferences > Hardware."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:94
+msgid "Port Address"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:103
+msgid "Pin to monitor for incoming trigger (10 = ACK, standard for MRI)."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:105
+msgid "Pin Number"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:113
+msgid "Integer value to send at trigger onset."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:114
+msgid "Start Data"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:122
+msgid "Integer value to send after pulse to reset the port."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:123
+msgid "Stop Data"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:131
+msgid "Pulse duration in seconds."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:132
+msgid "Pulse Duration (s)"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:143
+msgid "Bytes value to wait for (e.g. b'1'). Use None to accept any byte."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:145
+msgid "Trigger Byte"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:153
+msgid "Bytes value to send (e.g. b'\\x01')."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:154
+msgid "Send Byte"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:164
+msgid "Max seconds to wait for trigger. None = wait indefinitely."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:166
+msgid "Timeout (s)"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:176
+msgid "Show on Screen"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:184
+msgid "Message"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:200
+msgid "Letter Height"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:208
+msgid "Text Color"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:216
+msgid "Text Position"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:232
+msgid "Image Size"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:240
+msgid "Image Position"
+msgstr ""
+
+#: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte:38
+#, python-brace-format
+msgid "Duplicate field name: {}"
+msgstr ""
+
+#: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte:97
+#, python-brace-format
+msgid "Name of {} key"
+msgstr ""
+
+#: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte:115
+#, python-brace-format
+msgid "Starting value of {key} in {param}"
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/files/DirCtrl.svelte:22
+msgid "Current file path"
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/shell/Shell.svelte:38
+msgid "Python shell input"
+msgstr ""
+
+#~ msgid "Custom columns"
+#~ msgstr ""
+
+#~ msgid "Add columns as a dictionary"
+#~ msgstr ""
+
+#~ msgid "Should the event be saved in the log file too?"
+#~ msgstr ""
+
+#~ msgid "Trial type"
+#~ msgstr ""
+
+#~ msgid "Sample"
+#~ msgstr ""
+
+#~ msgid "Response time"
+#~ msgstr ""
+
+#~ msgid "HED"
+#~ msgstr ""
+
+#~ msgid "Stimulus file"
+#~ msgstr ""
+
+#~ msgid "Identifier"
+#~ msgstr ""
+
+#~ msgid "Database"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Onset (in seconds) of the event, measured from the beginning of the "
+#~ "acquisition of the first data point stored in the corresponding task data "
+#~ "file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Duration of the event (measured from onset) in seconds. Must always be "
+#~ "either zero or positive (or n/a if unavailable)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Primary categorisation of each trial to identify them as instances of the "
+#~ "experimental conditions."
+#~ msgstr ""
+
+#~ msgid "Response time measured in seconds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Indicates the location of the stimulus file. The values represent a path "
+#~ "relative to the /stimuli directory. Paths that include the stimuli/ prefix "
+#~ "will also be correctly interpreted by removing the redundant prefix, "
+#~ "ensuring proper placement within the /stimuli directory."
+#~ msgstr ""
+
+#~ msgid "Hierarchical Event Descriptor (HED) Tag"
+#~ msgstr ""
+
+#~ msgid "Add additional columns as a dictionary"
+#~ msgstr ""
 
 #~ msgid "&View"
 #~ msgstr "ビュー(&V)"
@@ -10332,9 +10475,6 @@ msgstr ""
 
 #~ msgid " Use zip file below (download a PsychoPy release file ending .zip)"
 #~ msgstr " 以下のZipファイルを使用 (拡張子.zipの配布ファイルをダウンロードしてください)"
-
-#~ msgid "Close"
-#~ msgstr "閉じる"
 
 #, python-format
 #~ msgid ""
