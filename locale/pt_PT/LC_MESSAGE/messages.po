@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.0\n"
-"POT-Creation-Date: 2026-06-30 15:11+0000\n"
+"POT-Creation-Date: 2026-07-13 03:10+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jeremy R. Gray <jrgray@gmail.com>\n"
 "Language-Team: psychopy-dev@google-groups.com\n"
@@ -322,6 +322,7 @@ msgstr "&Editar"
 msgid "Monitor Center"
 msgstr "Central de monitorização"
 
+#: psychopy-studio/src/routes/builder/flow/EntryPoint.svelte:129
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte:205
 msgid "Paste Routine"
 msgstr "Colar Routine"
@@ -500,11 +501,11 @@ msgstr "Não está ligado à Pavlovia. Faça login para sincronizar o projeto."
 msgid "Name"
 msgstr "Nome"
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:72
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:71
 msgid "Login"
 msgstr "Login"
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:64
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:63
 msgid "Logout"
 msgstr "Logout"
 
@@ -521,11 +522,11 @@ msgstr "Exclusivamente baixa latência"
 msgid "No user"
 msgstr "Nenhum utilizador"
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:35
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:34
 msgid "Edit user..."
 msgstr "Editar utilizador..."
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:52
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:51
 msgid "New user..."
 msgstr "Novo utilizador..."
 
@@ -735,7 +736,7 @@ msgstr "Sincronizar o tempo com atualização do ecrã"
 msgid "Disable this Component"
 msgstr "Desabilitar este Componente"
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:158
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:159
 #: psychopy/psychopy/experiment/components/_base.py:137
 msgid "Disable Component"
 msgstr "Desabilitar Componente"
@@ -3164,6 +3165,7 @@ msgstr "Estilo de linguagem"
 msgid "Textbox: present text stimuli but cooler"
 msgstr "Caixa de texto: apresentar estímulos de texto, mas mais fixes"
 
+#: psychopy-studio/src/lib/utils/code/CodeInput.svelte:6
 #: psychopy/psychopy/experiment/components/textbox/__init__.py:28
 msgid "Type here..."
 msgstr "Digite aqui..."
@@ -6075,7 +6077,7 @@ msgstr ""
 msgid "A name to refer to this device by in Device Manager."
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:107
+#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:108
 msgid "Scanning..."
 msgstr ""
 
@@ -6694,22 +6696,22 @@ msgstr ""
 msgid "Name already in use"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:51
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:38
 msgid "Browse your projects on Pavlovia"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:58
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:45
 msgid "Pavlovia surveys"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:70
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:57
 msgid ""
 "Below are all of the surveys linked to your Pavlovia account - select the "
 "one you want and press OK to add its ID. You can view and manage your "
 "Pavlovia surveys "
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:75
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:64
 msgid "Loading surveys..."
 msgstr ""
 
@@ -6757,7 +6759,7 @@ msgstr ""
 msgid "Briefly describe the changes made since last sync."
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:40
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:39
 msgid "Switch user..."
 msgstr ""
 
@@ -6775,41 +6777,41 @@ msgid ""
 "This is a program we use to install Python. Once it's finished installing, you won't have to see this message again."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:108
+#: psychopy-studio/src/lib/python/functions.svelte.js:117
 msgid "Installing Python..."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:109
+#: psychopy-studio/src/lib/python/functions.svelte.js:118
 #, python-brace-format
 msgid ""
 "### Installing Python (${pyVersion})...\n"
 "This may take some time and, unfortunately, cannot be done in the background. Once it's finished installing, you won't have to see this message again."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:155
+#: psychopy-studio/src/lib/python/functions.svelte.js:192
 msgid "Installing PsychoPy library..."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:156
+#: psychopy-studio/src/lib/python/functions.svelte.js:193
 #, python-brace-format
 msgid ""
 "### Installing PsychoPy library (${version ? version : \"latest version\"})...\n"
 "This may take some time and, unfortunately, cannot be done in the background. Once it's finished installing, you won't have to see this message again."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:199
+#: psychopy-studio/src/lib/python/functions.svelte.js:234
 msgid "Connecting Python"
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:202
+#: psychopy-studio/src/lib/python/functions.svelte.js:237
 msgid "Connected Python"
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:206
+#: psychopy-studio/src/lib/python/functions.svelte.js:241
 msgid "Starting Python..."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:209
+#: psychopy-studio/src/lib/python/functions.svelte.js:244
 msgid "Successfully started Python"
 msgstr ""
 
@@ -6940,7 +6942,7 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:109
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:111
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte:78
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte:86
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte:67
@@ -7072,15 +7074,15 @@ msgstr ""
 msgid "Edit settings for this Routine"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:153
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:154
 msgid "Edit Component"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:158
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:159
 msgid "Enable Component"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:188
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:189
 msgid "Delete Component"
 msgstr ""
 
@@ -7089,11 +7091,11 @@ msgstr ""
 msgid "Delete {}"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:27
+#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:29
 msgid "Apply"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:34
+#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:36
 msgid "Discard"
 msgstr ""
 
@@ -7143,7 +7145,7 @@ msgstr ""
 msgid "Navigate to current file"
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:135
+#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:136
 msgid "Could not access files"
 msgstr ""
 
@@ -7257,7 +7259,7 @@ msgid "Run experiment in browser"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte:74
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:173
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:174
 msgid "Paste Component"
 msgstr "Colar Componente"
 
@@ -7345,16 +7347,16 @@ msgstr ""
 msgid "Clone"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:105
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:107
 msgid "Checking whether project is synced..."
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:118
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:120
 #, python-brace-format
 msgid "Run {}"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:131
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:133
 msgid ""
 "This project is not synced to your local machine. Would you like to fetch it"
 " from Pavlovia?"
@@ -7406,15 +7408,15 @@ msgstr ""
 msgid "Python error"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:168
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:169
 msgid "Copy Component"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:177
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:178
 msgid "Above"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:182
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:183
 msgid "Below"
 msgstr ""
 
@@ -7440,6 +7442,14 @@ msgstr ""
 
 #: psychopy-studio/src/routes/coder/shell/Shell.svelte:38
 msgid "Python shell input"
+msgstr ""
+
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:78
+msgid "Getting project info..."
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte:77
+msgid "Search projects"
 msgstr ""
 
 #~ msgid "Search projects..."
