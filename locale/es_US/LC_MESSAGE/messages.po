@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.0\n"
-"POT-Creation-Date: 2026-06-30 15:11+0000\n"
+"POT-Creation-Date: 2026-07-20 03:10+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Claudio Alfredo de la Rosa Munar <cdelarosa@delarosaresearch.com>\n"
 "Language-Team: psychopy_spanish@opensciencetools.org\n"
@@ -20,26 +20,26 @@ msgstr ""
 "X-Poedit-SearchPath-0: psychopy\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:153
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:38
 #, python-brace-format
 msgid "Your stimulus size exceeds the {dimension} dimension of your window."
 msgstr ""
 "El tamaño de su estímulo excede la dimensión {dimension} de su ventana."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:173
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:95
 #, python-brace-format
 msgid "Your stimulus size is smaller than 1 pixel ({dimension} dimension)."
 msgstr ""
 "El tamaño de su estímulo es menor que 1 píxel ( de dimensión {dimension})."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:133
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:27
 #, python-brace-format
 msgid ""
 "Your stimulus position exceeds the {dimension} dimension of your window."
 msgstr ""
 "La posición de su estímulo excede la  {dimension} dimensión de su ventana."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:121
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:34
 #, python-brace-format
 msgid ""
 "Your stimulus {type} time of {time} is less than a screen refresh for a "
@@ -48,7 +48,7 @@ msgstr ""
 "El tiempo {time} de su estímulo {type} es menor que una actualización de "
 "pantalla para un monitor de {Hz}Hz."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:161
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:177
 #, python-brace-format
 msgid ""
 "Your stimulus {type} time of {time} seconds cannot be accurately presented "
@@ -57,7 +57,7 @@ msgstr ""
 "El tiempo de {type} de su estímulo de {time} segundos no se puede presentar "
 "con precisión por {time} segundos para un monitor de {Hz}Hz."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:53
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:153
 #, python-brace-format
 msgid ""
 "Experiment was built in a future version of PsychoPy ({version}), we "
@@ -68,7 +68,7 @@ msgstr ""
 "nosotros recomiendo actualizar PsychoPy o cambiar la configuración \"Usar "
 "versión\" (Use Version)  en la configuración de su experimento."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:137
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:103
 #, python-brace-format
 msgid ""
 "Experiment was built in a past version of PsychoPy ({version}), saving it in"
@@ -78,7 +78,7 @@ msgstr ""
 "guardarlo en esta versión puede adicionar parámetros que no pueden ser "
 "analizados."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:72
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:142
 #, python-brace-format
 msgid ""
 "Your stimulus start {type} exceeds the stop {type}. Consider using a {type} "
@@ -95,7 +95,7 @@ msgstr ""
 "Su estímulo {type}, tipo {frameType} debe ser expresado como un número "
 "completo."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:22
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:157
 #, python-brace-format
 msgid ""
 "Component {component} has stop time set as a duration, but doesn't have a "
@@ -104,7 +104,7 @@ msgstr ""
 "El componente {component} tiene el tiempo de parada establecido como "
 "duración, pero no tiene un tiempo de inicio"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:68
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:123
 #, python-brace-format
 msgid ""
 "Python Syntax Error in '{codeTab}' tab. See '{code}' on line number "
@@ -113,7 +113,7 @@ msgstr ""
 "Error de sintaxis de Python en la pestaña '{codeTab}'. Consulte '{code}' en "
 "el número de línea  {lineNumber} de la pestaña ‘{codeTab}’ ."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:110
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:91
 #, python-brace-format
 msgid ""
 "JavaScript Syntax Error in '{codeTab}' tab. See '{lineNumber}' in the "
@@ -122,7 +122,7 @@ msgstr ""
 "Error de sintaxis de JavaScript en la pestaña '{codeTab}'. Consulte "
 "'{lineNumber}' en  la pestaña ‘{codeTab}’ ."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:49
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:169
 #, python-brace-format
 msgid ""
 "The component {name} is currently disabled and will not be written to your "
@@ -131,11 +131,11 @@ msgstr ""
 "El componente {name} está actualmente deshabilitado y no se escribirá en el "
 "script de su experimento."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:60
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:68
 msgid "Cannot calculate parameter."
 msgstr "No se puede calcular el parámetro."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:88
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:83
 #, python-brace-format
 msgid ""
 "Builder cannot interpret value \"{param.val}\" of {param.label} for "
@@ -147,7 +147,7 @@ msgstr ""
 "\"{component.params[name].val}\"  ya que el signo de dollar ha sido usado "
 "incorrectamente."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:64
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:130
 #, python-brace-format
 msgid ""
 "Font `{param.val}` not found locally, will check Google Fonts on next run."
@@ -155,7 +155,7 @@ msgstr ""
 "La fuente `{param.val}`  no ha sido encontrada localmente, se chequeará en "
 "Google Fonts en la siguiente ejecución ."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:84
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:138
 #, python-brace-format
 msgid ""
 "Font `{font} {style}` not available in weight `{weight}`, component `{name}`"
@@ -164,14 +164,14 @@ msgstr ""
 "Fuente `{font} {style}` no disponible en peso `{weight}`, componente "
 "`{name}`  se colocará por defecto en Open Jans Regular."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:15
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:42
 #, python-brace-format
 msgid "Recording device '{device}' not found, using default device instead."
 msgstr ""
 "No se encontró el dispositivo de grabación '{device}'; en su lugar se "
 "utiliza el dispositivo predeterminado."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:76
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:107
 #, python-brace-format
 msgid ""
 "The component or routine '{comp}' is only implemented online, so will do "
@@ -180,7 +180,7 @@ msgstr ""
 "El componente o rutina '{comp}' solo se implementa en línea, así que no "
 "realizará ninguna acción al correr localmente."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:145
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:134
 #, python-brace-format
 msgid ""
 "The component or routine '{comp}' is only implemented locally, so will do "
@@ -189,7 +189,7 @@ msgstr ""
 "El componente o rutina '{comp}' solo se implementa localmente,  así que no "
 "realizará ninguna acción al correrlo en línea."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:95
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:173
 #, python-brace-format
 msgid ""
 "Editable textbox component {textbox} and keyboard component {keyboard} in "
@@ -198,7 +198,7 @@ msgstr ""
 "Componente de cuadro de texto editable {textbox} y componente de teclado "
 "{keyboard} en la misma rutina puede competir por las pulsaciones de teclas"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:98
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:49
 msgid ""
 "Experiment includes components or routines which use eyetracking, but no eye"
 " tracker is configured."
@@ -206,7 +206,7 @@ msgstr ""
 "El experimento incluye componentes o rutinas que utilizan rastreo ocular, "
 "pero ningún rastreador ocular se ha configurado."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:80
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:16
 #, python-brace-format
 msgid ""
 "A {eyetracker} eye tracker has been configured, but no calibration routine "
@@ -215,7 +215,7 @@ msgstr ""
 "Se ha configurado un rastreador ocular {eyetracker}, pero no hay rutina de "
 "calibración presente."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:18
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:23
 #, python-brace-format
 msgid ""
 "As {brand} eyetrackers do not support animations in their calibration "
@@ -225,12 +225,12 @@ msgstr ""
 "calibración, los valores de animación no han sido usados en su rutina de "
 "calibración."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:41
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:126
 #, python-brace-format
 msgid "Eyetrackers by {brand} do not support manual pacing"
 msgstr "Los Eyetrackers de {brand} no admiten ritmo manual"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:26
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:65
 msgid ""
 "Window mode is set to be windowed, but eyetracking requires the window to be"
 " full screen."
@@ -238,7 +238,7 @@ msgstr ""
 "El modo de ventana está configurado para ser en ventana, pero el rastreo "
 "ocular requiere que la ventana sea pantalla completa."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:106
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:149
 msgid ""
 "A monitor config is required for accurate eyetracking measurements, but none"
 " was found."
@@ -246,7 +246,7 @@ msgstr ""
 "Se requiere una configuración de monitor para mediciones precisas de rastreo"
 " ocular, pero ninguna ha sido encontrada."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:149
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:111
 msgid ""
 "Eye tracker experiments should use 'ioHub' as the Input -> Keyboard Backend "
 "setting"
@@ -254,21 +254,21 @@ msgstr ""
 "Los experimentos de rastreo ocular deben usar 'ioHub' como entrada -> "
 "Configuración del Backend del teclado"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:125
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:12
 #, python-brace-format
 msgid "Audio transcription service \"{transcriber}\" is not supported online."
 msgstr ""
 "El servicio de transcripción de audio \"{transcriber}\" no se admite en "
 "línea."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:129
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:72
 #, python-brace-format
 msgid "Audio transcription service \"{transcriber}\" is not supported offline."
 msgstr ""
 "El servicio de transcripción de audio \"{transcriber}\" no se admite sin "
 "conexión."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:157
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:119
 #, python-brace-format
 msgid ""
 "Chosen transcriber '{engine}' requires an API key, please supply one in "
@@ -277,7 +277,7 @@ msgstr ""
 "El transcriptor elegido ‘{engine}' requiere una clave API; proporcione una "
 "en Preferencias."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:102
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:46
 #, python-brace-format
 msgid ""
 "Device parameter of microphone component \"{name}\" will not be used online."
@@ -285,7 +285,7 @@ msgstr ""
 "El parámetro del dispositivo del componente del micrófono “{name}” no se "
 "utilizará en línea."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:165
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:115
 #, python-brace-format
 msgid ""
 "The file you are attempting to run does not seem to exist, the full path "
@@ -294,7 +294,7 @@ msgstr ""
 "El archivo que está intentando ejecutar no parece existir, la ruta completa "
 "suministrada para la ejecución (Runner)fue {path}"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:177
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:161
 #, python-brace-format
 msgid ""
 "Color space attribute `.{colorSpaceAttrib}` is no longer in use, as colors "
@@ -303,7 +303,7 @@ msgstr ""
 "El atributo de espacio de color `.{colorSpaceAttrib}` ya no está en uso, así"
 " como los colores no están ligados a un espacio."
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:169
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:87
 #, python-brace-format
 msgid ""
 "RGB attribute `.{rgbAttrib}` is no longer in use, as non-RGB colors now "
@@ -333,6 +333,7 @@ msgstr "&Editar"
 msgid "Monitor Center"
 msgstr "Centro de monitorización"
 
+#: psychopy-studio/src/routes/builder/flow/EntryPoint.svelte:129
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte:205
 msgid "Paste Routine"
 msgstr "Rutina de pegado"
@@ -484,11 +485,11 @@ msgstr ""
 msgid "Name"
 msgstr "Nombre"
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:72
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:71
 msgid "Login"
 msgstr "Iniciar sesión"
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:64
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:63
 msgid "Logout"
 msgstr "Cerrar sesión"
 
@@ -722,7 +723,7 @@ msgstr "Sincronizar sincronización con actualización de pantalla"
 msgid "Disable this Component"
 msgstr "Deshabilitar este componente"
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:158
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:159
 #: psychopy/psychopy/experiment/components/_base.py:137
 msgid "Disable Component"
 msgstr "Desactivar componente"
@@ -3170,6 +3171,7 @@ msgstr "¿Editable?"
 msgid "Textbox: present text stimuli but cooler"
 msgstr "Cuadro de texto: presenta estímulos de texto pero más geniales"
 
+#: psychopy-studio/src/lib/utils/code/CodeInput.svelte:6
 #: psychopy/psychopy/experiment/components/textbox/__init__.py:28
 msgid "Type here..."
 msgstr "Escriba aquí..."
@@ -5192,7 +5194,7 @@ msgstr ""
 msgid "Could not pause loop as the current experiment is not in a loop."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:91
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:79
 #, python-brace-format
 msgid ""
 "Speaker {deviceName} is set to \"Exclusive low latency\" mode. As resampling"
@@ -5200,38 +5202,38 @@ msgid ""
 "with some drawbacks."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:45
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:20
 #, python-brace-format
 msgid ""
 "Multiple Components in the same Routine are validated by {validator}, please"
 " ensure that the timing of these Components do not overlap."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:30
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:53
 #, python-brace-format
 msgid ""
 "Microphone component `{name}` given blank stop time, using max duration "
 "allowed by buffer size ({stopVal}s)."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:11
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:145
 #, python-brace-format
 msgid "Static Component `{name}` given infinite stop time"
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:38
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:61
 #, python-brace-format
 msgid ""
 "Column name '{param}' in conditions file already exists as a variable in "
 "this experiment ({category})."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:113
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:30
 #, python-brace-format
 msgid "Column name '{param}' is likely to cause name clashes. {msg}."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:141
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:99
 #, python-brace-format
 msgid ""
 "Component {name} comes from the plugin {plugin}, which is either not "
@@ -5242,11 +5244,11 @@ msgstr ""
 msgid "No user"
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:35
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:34
 msgid "Edit user..."
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:52
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:51
 msgid "New user..."
 msgstr ""
 
@@ -6093,7 +6095,7 @@ msgstr ""
 msgid "PILOTING: Switch to run mode before testing."
 msgstr ""
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:34
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:76
 #, python-brace-format
 msgid ""
 "Could not find any config for device {deviceName}, please setup this device "
@@ -6113,7 +6115,7 @@ msgstr ""
 msgid "A name to refer to this device by in Device Manager."
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:107
+#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:108
 msgid "Scanning..."
 msgstr ""
 
@@ -6296,7 +6298,7 @@ msgstr "Selector de color"
 msgid "System"
 msgstr "Sistema"
 
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:117
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py:165
 #, python-brace-format
 msgid ""
 "Cannot validate stop time for `{name}` as it stops on final frame of Routine"
@@ -6726,22 +6728,22 @@ msgstr ""
 msgid "Name already in use"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:51
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:38
 msgid "Browse your projects on Pavlovia"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:58
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:45
 msgid "Pavlovia surveys"
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:70
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:57
 msgid ""
 "Below are all of the surveys linked to your Pavlovia account - select the "
 "one you want and press OK to add its ID. You can view and manage your "
 "Pavlovia surveys "
 msgstr ""
 
-#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:75
+#: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte:64
 msgid "Loading surveys..."
 msgstr ""
 
@@ -6789,7 +6791,7 @@ msgstr ""
 msgid "Briefly describe the changes made since last sync."
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:40
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte:39
 msgid "Switch user..."
 msgstr ""
 
@@ -6807,41 +6809,41 @@ msgid ""
 "This is a program we use to install Python. Once it's finished installing, you won't have to see this message again."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:108
+#: psychopy-studio/src/lib/python/functions.svelte.js:117
 msgid "Installing Python..."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:109
+#: psychopy-studio/src/lib/python/functions.svelte.js:118
 #, python-brace-format
 msgid ""
 "### Installing Python (${pyVersion})...\n"
 "This may take some time and, unfortunately, cannot be done in the background. Once it's finished installing, you won't have to see this message again."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:155
+#: psychopy-studio/src/lib/python/functions.svelte.js:192
 msgid "Installing PsychoPy library..."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:156
+#: psychopy-studio/src/lib/python/functions.svelte.js:193
 #, python-brace-format
 msgid ""
 "### Installing PsychoPy library (${version ? version : \"latest version\"})...\n"
 "This may take some time and, unfortunately, cannot be done in the background. Once it's finished installing, you won't have to see this message again."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:199
+#: psychopy-studio/src/lib/python/functions.svelte.js:234
 msgid "Connecting Python"
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:202
+#: psychopy-studio/src/lib/python/functions.svelte.js:237
 msgid "Connected Python"
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:206
+#: psychopy-studio/src/lib/python/functions.svelte.js:241
 msgid "Starting Python..."
 msgstr ""
 
-#: psychopy-studio/src/lib/python/functions.svelte.js:209
+#: psychopy-studio/src/lib/python/functions.svelte.js:244
 msgid "Successfully started Python"
 msgstr ""
 
@@ -6972,7 +6974,7 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:109
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:111
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte:78
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte:86
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte:67
@@ -7110,15 +7112,15 @@ msgstr ""
 msgid "Edit settings for this Routine"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:153
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:154
 msgid "Edit Component"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:158
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:159
 msgid "Enable Component"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:188
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:189
 msgid "Delete Component"
 msgstr ""
 
@@ -7127,11 +7129,11 @@ msgstr ""
 msgid "Delete {}"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:27
+#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:29
 msgid "Apply"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:34
+#: psychopy-studio/src/routes/builder/routines/Standalone.svelte:36
 msgid "Discard"
 msgstr ""
 
@@ -7181,7 +7183,7 @@ msgstr ""
 msgid "Navigate to current file"
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:135
+#: psychopy-studio/src/routes/coder/files/FolderNode.svelte:136
 msgid "Could not access files"
 msgstr ""
 
@@ -7295,7 +7297,7 @@ msgid "Run experiment in browser"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte:74
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:173
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:174
 msgid "Paste Component"
 msgstr "Pegar componente"
 
@@ -7383,16 +7385,16 @@ msgstr ""
 msgid "Clone"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:105
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:107
 msgid "Checking whether project is synced..."
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:118
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:120
 #, python-brace-format
 msgid "Run {}"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:131
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:133
 msgid ""
 "This project is not synced to your local machine. Would you like to fetch it"
 " from Pavlovia?"
@@ -7444,15 +7446,15 @@ msgstr ""
 msgid "Python error"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:168
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:169
 msgid "Copy Component"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:177
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:178
 msgid "Above"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/routines/Component.svelte:182
+#: psychopy-studio/src/routes/builder/routines/Component.svelte:183
 msgid "Below"
 msgstr ""
 
@@ -7478,6 +7480,14 @@ msgstr ""
 
 #: psychopy-studio/src/routes/coder/shell/Shell.svelte:38
 msgid "Python shell input"
+msgstr ""
+
+#: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte:78
+msgid "Getting project info..."
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte:77
+msgid "Search projects"
 msgstr ""
 
 #~ msgid "Path"
