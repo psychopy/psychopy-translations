@@ -50,7 +50,12 @@ for file in (Path(__file__).parent / "locale").glob("**/*.po"):
         import polib
         # load po file
         po = polib.pofile(file)
+        # gettext needs translation file to be buried in some subfolders
+        subfolder = args.folder / code / "LC_MESSAGES"
+        # create folder if needed
+        if not subfolder.is_dir():
+            subfolder.mkdir(parents=True)
         # save as mo file
         po.save_as_mofile(
-            args.folder / f"{code}.mo"
+            subfolder / "messages.mo"
         )
