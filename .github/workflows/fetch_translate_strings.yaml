@@ -2,9 +2,9 @@ name: Fetch translate strings
 
 on:
   workflow_dispatch:  # manual
-  # cron nightly at 2am
+  # cron nightly at 2am on first of month (to avoid too many PRs being created)
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 1 * *'
 
 permissions:
   contents: write
@@ -76,11 +76,14 @@ jobs:
       run: |
         # NB run the command in source with input-dirs=. so the paths are relative to source/ 
         # used to be --width=79 but trying now with --no-wrap
+        # using add-location=file to add the filename *without* the constantly-changing line numbers
         pybabel extract \
           -F ../babel.cfg \
           --input-dirs=. --project=PsychoPy \
           --version=$(uv run python -c "import psychopy; print(psychopy.__version__)") \
           --no-wrap \
+          --sort-output \
+          --add-location=file \
           --output-file=../messages_new.pot
 
     - name: Compare old/new .pot files and update .po files
