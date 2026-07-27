@@ -108,7 +108,7 @@ jobs:
       working-directory: psychopy-translations
       run: |
         # pot file will have changed date to current date, so just check po files for changes to commit
-        git add -A locale/
+        git add -A psychopy_translations/locale/
         git status
     
     - name: Git commit and PR creation
