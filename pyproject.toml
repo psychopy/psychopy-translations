@@ -12,6 +12,11 @@ maintainers = [
 ]
     
 dependencies = [
+    "babel",
     "polib",
+    "six",
+    "pyyaml",
+    "autopep8",
+    "i18next",
     "pojson"
 ]
