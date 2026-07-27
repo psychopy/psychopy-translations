@@ -23,6 +23,8 @@ jobs:
     steps:
     - name: Checkout psychopy-translations
       uses: actions/checkout@v3
+      with:
+        path: psychopy-translations
     
     - name: Checkout psychopy (lib)
       uses: actions/checkout@v3
@@ -66,7 +68,7 @@ jobs:
     - name: Install translation dependencies
       run: |
         # minimal dependencies to run the translation template generation script
-        uv pip install .
+        uv pip install ./psychopy-translations
         # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
     
@@ -93,21 +95,24 @@ jobs:
           --no-wrap \
           --sort-output \
           --add-location=file \
-          --output-file=../messages_new.pot
+          --output-file=../psychopy-translations/messages_new.pot
 
     - name: Compare old/new .pot files and update .po files
+      working-directory: psychopy-translations
       run: |
-        python -m psychopy_translations.compare_old_new --new ./messages_new.pot -v
+        python -m psychopy_translations.compare_old_new --new ./messages_new.pot --current ./messages.pot -v
         # then move messages_new.pot to messages.pot (overwriting old one) for next round of updates
         mv messages_new.pot messages.pot
 
     - name: Git check status on po files
+      working-directory: psychopy-translations
       run: |
         # pot file will have changed date to current date, so just check po files for changes to commit
         git add -A locale/
         git status
     
     - name: Git commit and PR creation
+      working-directory: psychopy-translations
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # to authenticate with GitHub API for PR creation
       run: |
@@ -130,6 +135,7 @@ jobs:
         fi
 
     - name: Upload new/old .pot and ja_JP/fr_FR .po files as artifact to check
+      working-directory: psychopy-translations
       uses: actions/upload-artifact@v4
       if: always()  # upload even if previous steps fail, to check what went wrong
       with:
