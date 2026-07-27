@@ -135,7 +135,6 @@ jobs:
         fi
 
     - name: Upload new/old .pot and ja_JP/fr_FR .po files as artifact to check
-      working-directory: psychopy-translations
       uses: actions/upload-artifact@v4
       if: always()  # upload even if previous steps fail, to check what went wrong
       with:
