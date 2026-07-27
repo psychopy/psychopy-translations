@@ -142,7 +142,7 @@ jobs:
         name: translations
         retention-days: 7
         path: |
-          messages_new.pot
-          messages.pot
-          locale/ja_JP/LC_MESSAGES/messages.po
-          locale/fr_FR/LC_MESSAGES/messages.po
+          psychopy-translations/messages_new.pot
+          psychopy-translations/messages.pot
+          psychopy-translations/psychopy_translations/locale/ja_JP/LC_MESSAGES/messages.po
+          psychopy-translations/psychopy_translations/locale/fr_FR/LC_MESSAGES/messages.po
