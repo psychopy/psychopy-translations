@@ -21,19 +21,23 @@ jobs:
       fail-fast: true
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout psychopy-translations
+      uses: actions/checkout@v3
+    
     - name: Checkout psychopy (lib)
       uses: actions/checkout@v3
       with:
         repository: psychopy/psychopy
         ref: ${{ github.event.inputs.branch }}
         path: source/psychopy
+    
     - name: Checkout psychopy-studio
       uses: actions/checkout@v3
       with:
         repository: psychopy/psychopy-studio
         ref: ${{ github.event.inputs.branch }}
         path: source/psychopy-studio
+    
     - name: Find and checkout plugins
       run: |
         # fetch plugins.json (a list of dicts including "repo" key with the git url)
@@ -48,24 +52,29 @@ jobs:
           echo "Cloning to source/$name from $repo using default branch with depth 1"
           git clone --depth 1 $repo source/$name
         done
+    
     - name: Install Python
       uses: actions/setup-python@v4
       with:
         python-version: 3.12
+    
     - name: Install UV
       uses: astral-sh/setup-uv@v7
       with:
         activate-environment: true
+    
     - name: Install translation dependencies
       run: |
         # minimal dependencies to run the translation template generation script
-        uv pip install babel polib packaging six pyyaml autopep8 i18next
+        uv pip install .
         # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
+    
     - name: Generate PsychoPy Alerts text for localization
       working-directory: source/psychopy/psychopy/alerts/alertsCatalogue
       run: |
         python generateAlertmsg.py
+    
     - name: Generate PsychoPy Prefs hints for localization
       working-directory: source/psychopy/psychopy/preferences
       run: |
@@ -88,7 +97,7 @@ jobs:
 
     - name: Compare old/new .pot files and update .po files
       run: |
-        python compare_old_new.py -v
+        python -m psychopy_translations.compare_old_new --new ./messages_new.pot -v
         # then move messages_new.pot to messages.pot (overwriting old one) for next round of updates
         mv messages_new.pot messages.pot
 

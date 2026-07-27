@@ -15,9 +15,39 @@ import polib
 import argparse
 import pathlib
 
-locale_dir = pathlib.Path('locale')
-new_pot_filename = pathlib.Path('messages_new.pot')
-current_pot_filename = pathlib.Path('messages.pot')
+# setup call args
+argparser = argparse.ArgumentParser(
+    prog="psychopy_translations.compare_old_new",
+    description="usage: generateTranslationTemplate.py [-h] [-c]"
+)
+argparser.add_argument(
+    "--current",
+    type=pathlib.Path,
+    default=pathlib.Path(__file__).parent / "messages.pot",
+    help="Path of the current .pot file"
+)
+argparser.add_argument(
+    "--new",
+    type=pathlib.Path,
+    default=pathlib.Path(__file__).parent / "messages_new.pot",
+    help="Path of the new .pot file"
+)
+argparser.add_argument(
+    "-c", "--commit", 
+    action="store_true",
+    help="Commit messages.pot if updated.", 
+    required=False
+)
+argparser.add_argument(
+    '-v', '--verbose', 
+    action='store_true', 
+    help='Show detailed processing information.', 
+    required=False
+)
+args = argparser.parse_args()
+
+
+locale_dir = pathlib.Path(__file__).parent / 'locale'
 
 poedit_mime_headers = {
     "X-Poedit-KeywordsList": "_translate;translate",
@@ -40,23 +70,23 @@ def find_new_entries(verbose=False):
     current_pot_msgids = []
     untranslated_new = 0
 
-    if not current_pot_filename.exists():
+    if not args.current.exists():
         # if current pot file doesn't exist, copy it from new pot file.
         if verbose:
-            print('INFO: create {}... '.format(current_pot_filename), end='')
-        shutil.copy(new_pot_filename, current_pot_filename)
+            print('INFO: create {}... '.format(args.current), end='')
+        shutil.copy(args.new, args.current)
 
         # all entries are new.
-        po_new = polib.pofile(new_pot_filename)
+        po_new = polib.pofile(args.new)
         untranslated_new = len(po_new.untranslated_entries())
 
     else:
-        po_new = polib.pofile(new_pot_filename)
+        po_new = polib.pofile(args.new)
         for entry in po_new:
             if entry.msgid != '':
                 new_pot_msgids.append(entry.msgid)
     
-        po = polib.pofile(current_pot_filename)
+        po = polib.pofile(args.current)
         for entry in po:
             if entry.msgid != '':
                 current_pot_msgids.append(entry.msgid)
@@ -81,8 +111,8 @@ def merge_new_entries(verbose=False):
     if verbose:
         print('Merging new POT to PO files...')
 
-    pot = polib.pofile(new_pot_filename) # pot: for updating existing PO file
-    pot_new = polib.pofile(new_pot_filename) # pot_new: for creating new PO file
+    pot = polib.pofile(args.new) # pot: for updating existing PO file
+    pot_new = polib.pofile(args.new) # pot_new: for creating new PO file
     pot_new.metadata.update(poedit_mime_headers) # update header of new PO file
     
     for loc in locale_dir.iterdir():
@@ -136,11 +166,7 @@ def check_translation_status(verbose=False):
     return status
 
 
-parser = argparse.ArgumentParser(description='usage: generateTranslationTemplate.py [-h] [-c]')
-parser.add_argument('-c', '--commit', action='store_true', help='Commit messages.pot if updated.', required=False)
-parser.add_argument('-v', '--verbose', action='store_true', help='Show detailed processing information.', required=False)
 
-args = parser.parse_args()
 
 num_new_entries, num_total_entries = find_new_entries(verbose=args.verbose)
 
