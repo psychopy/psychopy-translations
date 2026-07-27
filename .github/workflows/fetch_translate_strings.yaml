@@ -89,7 +89,7 @@ jobs:
         # used to be --width=79 but trying now with --no-wrap
         # using add-location=file to add the filename *without* the constantly-changing line numbers
         pybabel extract \
-          -F ../babel.cfg \
+          -F ../psychopy-translations/babel.cfg \
           --input-dirs=. --project=PsychoPy \
           --version=$(uv run python -c "import psychopy; print(psychopy.__version__)") \
           --no-wrap \
