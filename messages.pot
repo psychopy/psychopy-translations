@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-27 10:26+0000\n"
+"POT-Creation-Date: 2026-09-01 02:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -383,6 +383,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/aperture/__init__.py
 msgid "Aperture: restrict the drawing of stimuli to a given region"
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "App info"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/routines/Standalone.svelte
@@ -814,6 +818,7 @@ msgstr ""
 msgid "Clear pavlovia output"
 msgstr ""
 
+#: psychopy-studio/src/routes/coder/shell/StdoutOutput.svelte
 #: psychopy-studio/src/routes/runner/outputs/StdoutOutput.svelte
 msgid "Clear stdout"
 msgstr ""
@@ -1238,6 +1243,11 @@ msgstr ""
 msgid "Copy current Routine"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Copy text"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Copy the current monitor's name to clipboard"
 msgstr ""
@@ -1405,6 +1415,11 @@ msgstr ""
 msgid "Custom target"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Cut text"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Dark calibration of ColorCAL"
 msgstr ""
@@ -1442,6 +1457,7 @@ msgid "Decibel range"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte
+#: psychopy-studio/src/lib/paramCtrls/ctrls/utils.svelte.js
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Default"
 msgstr ""
@@ -2118,7 +2134,7 @@ msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
-msgid "Font `{font} {style}` not available in weight `{weight}`, component `{name}` will default to Open Sans Regular."
+msgid "Font `{font}{style}` not available in weight `{weight}`, component `{name}` will use default font."
 msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
@@ -2171,6 +2187,12 @@ msgstr ""
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 #: psychopy/psychopy/experiment/components/soundsensor/__init__.py
 msgid "Force end of Routine"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Force reload window"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -2913,6 +2935,12 @@ msgstr ""
 msgid "Min. look time"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Minimize window"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/roi/__init__.py
 msgid "Minimum dwell time within roi (look at) or outside roi (look away)."
 msgstr ""
@@ -3139,10 +3167,6 @@ msgstr ""
 msgid "New project"
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
-msgid "New user..."
-msgstr ""
-
 #: psychopy-studio/src/routes/builder/components/ComponentButton.svelte
 #, python-brace-format
 msgid "New {}"
@@ -3340,6 +3364,10 @@ msgstr ""
 msgid "Open file"
 msgstr ""
 
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Open folder"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
 msgid "Open folder..."
 msgstr ""
@@ -3486,6 +3514,11 @@ msgstr ""
 #: psychopy-studio/src/routes/builder/flow/EntryPoint.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Paste Routine"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Paste text"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
@@ -3779,6 +3812,7 @@ msgstr ""
 msgid "Python shell input"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Quit"
@@ -3865,6 +3899,12 @@ msgstr ""
 msgid "Reload Components"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reload window"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/TableCtrl.svelte
 msgid "Reminder..."
 msgstr ""
@@ -3914,6 +3954,12 @@ msgstr ""
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Reset preferences"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reset zoom"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/camera/__init__.py
@@ -4825,6 +4871,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/static/__init__.py
 msgid "Static: Static screen period (e.g. an ISI). Useful for pre-loading stimuli."
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/shell/ShellNotebook.svelte
+msgid "Stdout"
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
@@ -5946,10 +5996,16 @@ msgstr ""
 msgid "Zoom control"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom in"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom out"
 msgstr ""
