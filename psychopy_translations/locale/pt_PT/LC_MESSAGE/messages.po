@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.1\n"
-"POT-Creation-Date: 2026-07-27 10:26+0000\n"
+"POT-Creation-Date: 2026-09-01 02:23+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jeremy R. Gray <jrgray@gmail.com>\n"
 "Language-Team: psychopy-dev@google-groups.com\n"
@@ -151,15 +151,6 @@ msgid ""
 msgstr ""
 "Fonte `{param.val}` não encontrada localmente, irá verificar o Google Fonts "
 "na próxima execução."
-
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
-#, python-brace-format
-msgid ""
-"Font `{font} {style}` not available in weight `{weight}`, component `{name}`"
-" will default to Open Sans Regular."
-msgstr ""
-"O tipo de letra `{font} {style}` não está disponível no peso `{weight}`, o "
-"componente `{name}` será predefinido como Open Sans Regular."
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
@@ -431,6 +422,7 @@ msgid "Field"
 msgstr "Campo"
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte
+#: psychopy-studio/src/lib/paramCtrls/ctrls/utils.svelte.js
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Default"
 msgstr "Predefinição"
@@ -520,10 +512,6 @@ msgstr "Nenhum utilizador"
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Edit user..."
 msgstr "Editar utilizador..."
-
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
-msgid "New user..."
-msgstr "Novo utilizador..."
 
 #: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte
 msgid "No project"
@@ -2080,10 +2068,16 @@ msgstr "Como controlar o zoom (ampliar e reduzir) da cena panorâmica"
 msgid "Zoom control"
 msgstr "Controlar zoom"
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom in"
 msgstr "Ampliar"
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom out"
 msgstr "Reduzir"
@@ -7114,6 +7108,7 @@ msgstr ""
 msgid "No open file"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Quit"
@@ -7160,6 +7155,7 @@ msgstr ""
 msgid "Clear pavlovia output"
 msgstr ""
 
+#: psychopy-studio/src/routes/coder/shell/StdoutOutput.svelte
 #: psychopy-studio/src/routes/runner/outputs/StdoutOutput.svelte
 msgid "Clear stdout"
 msgstr ""
@@ -7413,6 +7409,75 @@ msgstr ""
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 msgid "quitPsychoJS needs to be returned"
 msgstr ""
+
+#: psychopy-studio/src/routes/coder/shell/ShellNotebook.svelte
+msgid "Stdout"
+msgstr "Stdout"
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "App info"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Copy text"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Cut text"
+msgstr ""
+
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
+#, python-brace-format
+msgid ""
+"Font `{font}{style}` not available in weight `{weight}`, component `{name}` "
+"will use default font."
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Force reload window"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Minimize window"
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Open folder"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Paste text"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reload window"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reset zoom"
+msgstr ""
+
+#, python-brace-format
+#~ msgid ""
+#~ "Font `{font} {style}` not available in weight `{weight}`, component `{name}`"
+#~ " will default to Open Sans Regular."
+#~ msgstr ""
+#~ "O tipo de letra `{font} {style}` não está disponível no peso `{weight}`, o "
+#~ "componente `{name}` será predefinido como Open Sans Regular."
+
+#~ msgid "New user..."
+#~ msgstr "Novo utilizador..."
 
 #~ msgid "Search projects..."
 #~ msgstr "Procurar projetos..."
@@ -11461,9 +11526,6 @@ msgstr ""
 
 #~ msgid "Alerts"
 #~ msgstr "Alertas"
-
-#~ msgid "Stdout"
-#~ msgstr "Stdout"
 
 #~ msgid "Manage list"
 #~ msgstr "Gerir lista"
