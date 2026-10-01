@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2027.1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-16 11:32+0000\n"
+"POT-Creation-Date: 2026-10-01 02:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4139,8 +4139,6 @@ msgstr ""
 #: psychopy-app/src/psychopy_app/connections/updates.py
 #: psychopy-app/src/psychopy_app/plugin_manager/packages.py
 #: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
-#: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
-#: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Install"
 msgstr ""
 
@@ -5611,6 +5609,13 @@ msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte
 msgid "Pavlovia surveys"
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
+msgid ""
+"Pavlovia usernames should not be all numbers.\n"
+"\n"
+"Resolve online at [pavlovia.org](https://gitlab.pavlovia.org/-/profile/account)."
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
@@ -8495,8 +8500,6 @@ msgstr ""
 
 #: psychopy-app/src/psychopy_app/plugin_manager/packages.py
 #: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
-#: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
-#: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Uninstall"
 msgstr ""
 
@@ -8554,7 +8557,7 @@ msgid "Up to parent directory"
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
-#: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
+#: psychopy-studio/src/lib/dialogs/pluginManager/VersionCtrl.svelte
 msgid "Update"
 msgstr ""
 
