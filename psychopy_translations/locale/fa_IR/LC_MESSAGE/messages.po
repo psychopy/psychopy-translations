@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2027.1.0\n"
-"POT-Creation-Date: 2026-11-01 02:14+0000\n"
+"POT-Creation-Date: 2026-11-16 17:23+0000\n"
 "PO-Revision-Date: 2019-03-05 14:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1454,6 +1454,7 @@ msgstr ""
 
 #: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
 #: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FileListCtrl.svelte
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Delete"
 msgstr ""
@@ -2783,13 +2784,11 @@ msgstr ""
 #: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
-#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 msgid "Find"
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/builder/builder.py
-#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Experiment settings"
 msgstr ""
 
@@ -2817,6 +2816,7 @@ msgstr ""
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
 #: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Find in experiment..."
 msgstr ""
 
@@ -5552,7 +5552,6 @@ msgstr ""
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DictCtrl.svelte
-#: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FileListCtrl.svelte
 msgid "Add item"
 msgstr ""
 
@@ -5735,12 +5734,6 @@ msgstr ""
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "How many calibration points to use"
-msgstr ""
-
-#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
-#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
-#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
-msgid "Preferences"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
@@ -5994,7 +5987,6 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
 #: psychopy-studio/src/lib/ui/input/SearchCtrl.svelte
 msgid "Search..."
 msgstr ""
@@ -6126,13 +6118,8 @@ msgid "Open color picker"
 msgstr ""
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DictCtrl.svelte
-#: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FileListCtrl.svelte
 #: psychopy-studio/src/routes/runner/files/Panel.svelte
 msgid "Remove item"
-msgstr ""
-
-#: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FileListCtrl.svelte
-msgid "Add multiple items"
 msgstr ""
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FontCtrl.svelte
@@ -6419,11 +6406,8 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
-#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
-#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Open file"
 msgstr ""
 
@@ -6435,11 +6419,8 @@ msgstr ""
 msgid "Save file"
 msgstr ""
 
-#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
-#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
-#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Save file as"
 msgstr ""
 
@@ -6460,14 +6441,6 @@ msgstr ""
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Reset preferences"
-msgstr ""
-
-#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
-msgid "Report bug"
-msgstr ""
-
-#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
-msgid "Find in experiment"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
@@ -6599,6 +6572,7 @@ msgid "Data Files"
 msgstr ""
 
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Open folder..."
 msgstr ""
 
@@ -6903,6 +6877,7 @@ msgid "quitPsychoJS needs to be returned"
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/ribbon.py
+#: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
 msgid "Search projects..."
 msgstr ""
 
@@ -8730,6 +8705,7 @@ msgid "Layout"
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-studio/src/lib/ui/input/InputTextCtrl.svelte
 msgid "Input"
 msgstr ""
 
@@ -9555,6 +9531,9 @@ msgid "Could not get image from: {}, using blank image instead."
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/utils.py
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Save file as..."
 msgstr ""
 
@@ -10652,10 +10631,12 @@ msgid "Sort..."
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+#: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
 msgid "Filter..."
 msgstr ""
 
 #: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+#: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
 msgid "Author"
 msgstr ""
 
@@ -11138,10 +11119,6 @@ msgstr ""
 msgid "Once you have created and saved your table, remember to add it here."
 msgstr ""
 
-#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
-msgid "Open folder"
-msgstr ""
-
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Paste text"
@@ -11184,10 +11161,6 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: psychopy-studio/src/lib/ui/input/SearchCtrl.svelte
-msgid "Search"
-msgstr ""
-
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
 msgid "Add a hyphen when text wraps in the middle of a word"
 msgstr ""
@@ -11202,7 +11175,7 @@ msgid ""
 "suppresses drift on an idle stick."
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/browseProjects/BrowseDemosDlg.svelte
+#: psychopy-studio/src/lib/pavlovia/demos/BrowseDemosDlg.svelte
 msgid "Browse demos"
 msgstr ""
 
@@ -11367,7 +11340,7 @@ msgid ""
 "console); it may be in the console."
 msgstr ""
 
-#: psychopy/psychopy/experiment/components/keyboard/__init__.py
+#: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Ignore keypresses outside PsychoPy"
 msgstr ""
 
@@ -11481,7 +11454,7 @@ msgstr ""
 msgid "Not installed"
 msgstr ""
 
-#: psychopy/psychopy/experiment/components/keyboard/__init__.py
+#: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid ""
 "Only collect responses when the PsychoPy window has focus (this is better "
 "for security)"
@@ -11543,7 +11516,7 @@ msgstr ""
 msgid "Reusing Routines wherever possible will make your experiment"
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/browseProjects/BrowseDemos.svelte
+#: psychopy-studio/src/lib/pavlovia/demos/BrowseDemos.svelte
 msgid "Search demos..."
 msgstr ""
 
@@ -11697,6 +11670,84 @@ msgid ""
 "Pavlovia?"
 msgstr ""
 
+#: psychopy-studio/src/lib/pavlovia/search/SearchProjectsDlg.svelte
+msgid "Search projects"
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/CommitDlg.svelte
+msgid "Changed files:"
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
+msgid "Clear"
+msgstr ""
+
+#: psychopy-studio/src/lib/ui/message/Message.svelte
+msgid "Dismiss"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+msgid "Experiment settings..."
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
+msgid "Filter projects"
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Find..."
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
+msgid "Log in to show only projects belonging to you"
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
+msgid "Only include projects by a specific user or group"
+msgstr ""
+
+#: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
+msgid "Only show projects belonging to you"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Open file..."
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Preferences..."
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Report bug..."
+msgstr ""
+
+#: psychopy/psychopy/preferences/hints.py
+msgid "library to use for reading cameras"
+msgstr ""
+
+#~ msgid "Preferences"
+#~ msgstr ""
+
+#~ msgid "Add multiple items"
+#~ msgstr ""
+
+#~ msgid "Report bug"
+#~ msgstr ""
+
+#~ msgid "Find in experiment"
+#~ msgstr ""
+
+#~ msgid "Open folder"
+#~ msgstr ""
+
+#~ msgid "Search"
+#~ msgstr ""
+
 #~ msgid "Device number"
 #~ msgstr ""
 
@@ -11743,9 +11794,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Getting project info..."
-#~ msgstr ""
-
-#~ msgid "Search projects"
 #~ msgstr ""
 
 #, python-brace-format
