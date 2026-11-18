@@ -5895,363 +5895,447 @@ msgid "How many calibration points to use"
 msgstr "キャリブレーション点の個数"
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "Cannot validate stop time for `{name}` as it stops on final frame of Routine"
-msgstr ""
+msgstr "`{name}`はRoutineの最終フレームで終了するため, 終了時刻を検証できません"
 
 #: psychopy/psychopy/data/utils.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Duplicate column name '{}'"
-msgstr ""
+msgstr "列名'{}'が重複しています"
 
 #: psychopy/psychopy/experiment/loops.py
+#, fuzzy
 msgid "Loop"
-msgstr ""
+msgstr "Loop"
 
 #: psychopy/psychopy/experiment/loops.py
+#, fuzzy
 msgid "Interleaved staircases"
-msgstr ""
+msgstr "交互ステアケース"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Before experiment (Py)"
-msgstr ""
+msgstr "実験開始前 (Py)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Begin experiment (Py)"
-msgstr ""
+msgstr "実験開始時 (Py)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Begin Routine (Py)"
-msgstr ""
+msgstr "Routine開始時 (Py)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Each frame (Py)"
-msgstr ""
+msgstr "フレーム毎 (Py)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "End Routine (Py)"
-msgstr ""
+msgstr "Routine終了時 (Py)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "End experiment (Py)"
-msgstr ""
+msgstr "実験終了時 (Py)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Before experiment (JS)"
-msgstr ""
+msgstr "実験開始前 (JS)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Begin experiment (JS)"
-msgstr ""
+msgstr "実験開始時 (JS)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "Begin Routine (JS)"
-msgstr ""
+msgstr "Routine開始時 (JS)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "End Routine (JS)"
-msgstr ""
+msgstr "Routine終了時 (JS)"
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
+#, fuzzy
 msgid "End experiment (JS)"
-msgstr ""
+msgstr "実験終了時 (JS)"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Override the device's reported baudrate"
-msgstr ""
+msgstr "デバイスが報告するボーレートを上書きします"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Baudrate override"
-msgstr ""
+msgstr "ボーレートの上書き"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Override the device's reported byte size"
-msgstr ""
+msgstr "デバイスが報告するバイトサイズを上書きします"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Byte size override"
-msgstr ""
+msgstr "バイトサイズの上書き"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Override the device's reported stop bits"
-msgstr ""
+msgstr "デバイスが報告するストップビットを上書きします"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Stop bits override"
-msgstr ""
+msgstr "ストップビットの上書き"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "N (none)"
-msgstr ""
+msgstr "N (なし)"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "E (even)"
-msgstr ""
+msgstr "E (偶数)"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "O (odd)"
-msgstr ""
+msgstr "O (奇数)"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "M (mask)"
-msgstr ""
+msgstr "M (マーク)"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Override the device's reported parity settings"
-msgstr ""
+msgstr "デバイスが報告するパリティ設定を上書きします"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "Parity override"
-msgstr ""
+msgstr "パリティの上書き"
 
 #: psychopy/psychopy/experiment/components/soundsensor/__init__.py
+#, fuzzy
 msgid ""
 "What kind of values (dB) would you expect to receive from this device? In "
 "other words, how many dB does a threshold of 0 and 1 correspond to?"
-msgstr ""
+msgstr "このデバイスから受け取る値(dB)の範囲を指定します. つまり, 閾値0と1がそれぞれ何dBに相当するかを指定します."
 
 #: psychopy/psychopy/voicekey/__init__.py
+#, fuzzy
 msgid ""
 "psychopy.voicekey is no longer maintained, please use "
 "psychopy.hardware.soundSensor instead"
 msgstr ""
+"psychopy.voicekeyはメンテナンスされていません. 代わりにpsychopy.hardware.soundSensorを使用してください"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Submit bug report"
-msgstr ""
+msgstr "バグを報告"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "ClickUp access token ("
-msgstr ""
+msgstr "ClickUpアクセストークン ("
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid " to log in and get one)"
-msgstr ""
+msgstr "からログインして取得してください)"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Provide a contact email"
-msgstr ""
+msgstr "連絡先のメールアドレスを入力してください"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Briefly summarise the bug"
-msgstr ""
+msgstr "バグの概要を簡潔に記入してください"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Provide a more detailed description (optional)"
-msgstr ""
+msgstr "詳しい説明を記入してください (任意)"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "How severe is the bug?"
-msgstr ""
+msgstr "バグの深刻度はどの程度ですか?"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Totally prevents me from progressing"
-msgstr ""
+msgstr "作業を全く進められない"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Requires a hacky workaround to progress"
-msgstr ""
+msgstr "無理やりな回避策を使わないと進められない"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Can progress but there's confusing errors/warnings"
-msgstr ""
+msgstr "進められるが, わかりにくいエラーや警告が出る"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Works but something is unintuitive / could be prettier"
-msgstr ""
+msgstr "動作はするが, 直感的でない/見た目を改善できる箇所がある"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Failed to send report."
-msgstr ""
+msgstr "レポートの送信に失敗しました."
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "Click below to download the report so you can send it manually:"
-msgstr ""
+msgstr "下のボタンをクリックしてレポートをダウンロードし, 手動で送信してください:"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/Dialog.svelte
+#, fuzzy
 msgid "Color Picker"
-msgstr ""
+msgstr "カラーピッカー"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/HexColor.svelte
 #: psychopy-studio/src/lib/dialogs/colorPicker/RgbColor.svelte
+#, fuzzy
 msgid "Red"
-msgstr ""
+msgstr "赤"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/HexColor.svelte
 #: psychopy-studio/src/lib/dialogs/colorPicker/RgbColor.svelte
+#, fuzzy
 msgid "Green"
-msgstr ""
+msgstr "緑"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/HexColor.svelte
 #: psychopy-studio/src/lib/dialogs/colorPicker/RgbColor.svelte
+#, fuzzy
 msgid "Blue"
-msgstr ""
+msgstr "青"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/HsvColor.svelte
+#, fuzzy
 msgid "Hue"
-msgstr ""
+msgstr "色相"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/HsvColor.svelte
+#, fuzzy
 msgid "Saturation"
-msgstr ""
+msgstr "彩度"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/LmsColor.svelte
+#, fuzzy
 msgid "Long"
-msgstr ""
+msgstr "長い"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/LmsColor.svelte
+#, fuzzy
 msgid "Medium"
-msgstr ""
+msgstr "中くらい"
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/LmsColor.svelte
+#, fuzzy
 msgid "Short"
-msgstr ""
+msgstr "短い"
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/Dialog.svelte
+#, fuzzy
 msgid ""
 "Click \"Add device\" to add a new device, or import devices from a .json "
 "file."
-msgstr ""
+msgstr "「デバイスを追加」をクリックして新しいデバイスを追加するか, .jsonファイルからデバイスをインポートしてください."
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
+#, fuzzy
 msgid "Add device..."
-msgstr ""
+msgstr "デバイスを追加..."
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
 #: psychopy-studio/src/lib/dialogs/readme/ReadMe.svelte
 #: psychopy-studio/src/lib/dialogs/tips/TipsDialog.svelte
+#, fuzzy
 msgid "Refresh"
-msgstr ""
+msgstr "更新"
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
+#, fuzzy
 msgid "Getting device backends..."
-msgstr ""
+msgstr "デバイスのバックエンドを取得中..."
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Getting {} devices..."
-msgstr ""
+msgstr "{}デバイスを取得中..."
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
+#, fuzzy
 msgid "Try again with a longer wait time (in milliseconds)?"
-msgstr ""
+msgstr "待ち時間(ミリ秒)を長くして再試行しますか?"
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
+#, fuzzy
 msgid "Retry"
-msgstr ""
+msgstr "再試行"
 
 #: psychopy-studio/src/lib/ui/input/SearchCtrl.svelte
+#, fuzzy
 msgid "Search..."
-msgstr ""
+msgstr "検索..."
 
 #: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
+#, fuzzy
 msgid "Use RegEx syntax"
-msgstr ""
+msgstr "正規表現を使用"
 
 #: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
+#, fuzzy
 msgid "Use case-sensitive searching"
-msgstr ""
+msgstr "大文字と小文字を区別して検索"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/Dialog.svelte
+#, fuzzy
 msgid "Font Manager"
-msgstr ""
+msgstr "フォントマネージャー"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
+#, fuzzy
 msgid "System"
-msgstr ""
+msgstr "システム"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
+#, fuzzy
 msgid "Fonts which are installed to your computer"
-msgstr ""
+msgstr "このコンピュータにインストールされているフォント"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
+#, fuzzy
 msgid "Packaged"
-msgstr ""
+msgstr "同梱"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
+#, fuzzy
 msgid "Fonts which come packaged with PsychoPy"
-msgstr ""
+msgstr "PsychoPyに同梱されているフォント"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
+#, fuzzy
 msgid "Fonts saved to your PsychoPy user folder"
-msgstr ""
+msgstr "PsychoPyのユーザーフォルダに保存されているフォント"
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
+#, fuzzy
 msgid "Fonts in the current experiment folder"
-msgstr ""
+msgstr "現在の実験フォルダにあるフォント"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/CalibrationSetupDlg.svelte
+#, fuzzy
 msgid "Monitor calibration setup"
-msgstr ""
+msgstr "モニター較正の設定"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/CalibrationSetupDlg.svelte
+#, fuzzy
 msgid "Getting photometer classes..."
-msgstr ""
+msgstr "光度計のクラスを取得中..."
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/MonitorCenterDlg.svelte
+#, fuzzy
 msgid "Loading monitors..."
-msgstr ""
+msgstr "モニターを読み込み中..."
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Screen distance (cm)"
-msgstr ""
+msgstr "画面までの距離 (cm)"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "How far, in centimeters (cm), is the screen from the participant?"
-msgstr ""
+msgstr "参加者から画面までの距離をセンチメートル(cm)で指定します"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Screen size (pix)"
-msgstr ""
+msgstr "画面サイズ (pix)"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "The dimensions of the screen in pixels"
-msgstr ""
+msgstr "画面の大きさ(ピクセル)"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Screen width (cm)"
-msgstr ""
+msgstr "画面の幅 (cm)"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "The width of the screen in centimeters (cm)"
-msgstr ""
+msgstr "画面の幅をセンチメートル(cm)で指定します"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Use bits++?"
-msgstr ""
+msgstr "Bits++を使用する?"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Whether to use a CRS Bits++ calibration tool"
-msgstr ""
+msgstr "CRS Bits++較正ツールを使用するかどうか"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Gamma calibration"
-msgstr ""
+msgstr "ガンマ較正"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Gamma calibration grid"
-msgstr ""
+msgstr "ガンマ較正グリッド"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
+#, fuzzy
 msgid "Screen number to run calibration on"
-msgstr ""
+msgstr "較正を行う画面の番号"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/Dialog.svelte
+#, fuzzy
 msgid "Plugins & packages"
-msgstr ""
+msgstr "プラグインとパッケージ"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
+#, fuzzy
 msgid "Getting package details..."
-msgstr ""
+msgstr "パッケージの詳細を取得中..."
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
+#, fuzzy
 msgid "Failed to load details for "
-msgstr ""
+msgstr "詳細の読み込みに失敗しました: "
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackagesPanel.svelte
+#, fuzzy
 msgid "Searching PyPi..."
-msgstr ""
+msgstr "PyPIを検索中..."
 
 #: psychopy-studio/src/lib/dialogs/preferences/PrefsDialog.svelte
 #: psychopy-studio/src/lib/ui/icon/Icon.svelte
@@ -6259,608 +6343,742 @@ msgstr ""
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/ConditionsCtrl.svelte
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/MultipleChoiceCtrl.svelte
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/RichChoiceCtrl.svelte
+#, fuzzy
 msgid "Loading..."
-msgstr ""
+msgstr "読み込み中..."
 
 #: psychopy-studio/src/lib/dialogs/projects/manage/ManageProjectsDlg.svelte
+#, fuzzy
 msgid "Local projects"
-msgstr ""
+msgstr "ローカルのプロジェクト"
 
 #: psychopy-studio/src/lib/dialogs/tips/TipsDialog.svelte
+#, fuzzy
 msgid "PsychoPy Tips"
-msgstr ""
+msgstr "PsychoPyのヒント"
 
 #: psychopy-studio/src/lib/dialogs/tips/TipsDialog.svelte
+#, fuzzy
 msgid "Don't show startup tips"
-msgstr ""
+msgstr "起動時にヒントを表示しない"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/ColorCtrl.svelte
+#, fuzzy
 msgid "Open color picker"
-msgstr ""
+msgstr "カラーピッカーを開く"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DictCtrl.svelte
 #: psychopy-studio/src/routes/runner/files/Panel.svelte
+#, fuzzy
 msgid "Remove item"
-msgstr ""
+msgstr "項目を削除"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FontCtrl.svelte
+#, fuzzy
 msgid "Open font manager"
-msgstr ""
+msgstr "フォントマネージャーを開く"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/KeyPressCtrl.svelte
+#, fuzzy
 msgid "No binding set"
-msgstr ""
+msgstr "キー割り当てなし"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/KeyPressCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Keybinding '{1}' for {2} is already in use by '{3}'"
-msgstr ""
+msgstr "キー割り当て'{1}'({2})は既に'{3}'で使用されています"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/KeyPressCtrl.svelte
+#, fuzzy
 msgid "Clear keypresses"
-msgstr ""
+msgstr "キー入力をクリア"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/KeyPressCtrl.svelte
+#, fuzzy
 msgid "Done"
-msgstr ""
+msgstr "完了"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/KeyPressCtrl.svelte
+#, fuzzy
 msgid "Click to set"
-msgstr ""
+msgstr "クリックして設定"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/NameCtrl.svelte
+#, fuzzy
 msgid "Must have a name"
-msgstr ""
+msgstr "名前が必要です"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/NameCtrl.svelte
+#, fuzzy
 msgid "Names cannot include spaces"
-msgstr ""
+msgstr "名前にスペースは使用できません"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/NameCtrl.svelte
+#, fuzzy
 msgid "Name cannot be a protected keyword"
-msgstr ""
+msgstr "予約語は名前に使用できません"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/NameCtrl.svelte
+#, fuzzy
 msgid "Name already in use"
-msgstr ""
+msgstr "この名前は既に使用されています"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/SurveyCtrl.svelte
+#, fuzzy
 msgid "Browse your projects on Pavlovia"
-msgstr ""
+msgstr "Pavlovia上のプロジェクトを閲覧"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/SurveyCtrl.svelte
+#, fuzzy
 msgid "Pavlovia surveys"
-msgstr ""
+msgstr "Pavloviaのサーベイ"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/SurveyCtrl.svelte
+#, fuzzy
 msgid ""
 "Below are all of the surveys linked to your Pavlovia account - select the "
 "one you want and press OK to add its ID. You can view and manage your "
 "Pavlovia surveys "
 msgstr ""
+"以下はあなたのPavloviaアカウントに紐付けられたすべてのサーベイです. 使用するものを選んでOKを押すと, そのIDが追加されます. "
+"Pavloviaのサーベイの閲覧と管理はこちらから行えます: "
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/SurveyCtrl.svelte
+#, fuzzy
 msgid "Loading surveys..."
-msgstr ""
+msgstr "サーベイを読み込み中..."
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/TableCtrl.svelte
+#, fuzzy
 msgid "Open table"
-msgstr ""
+msgstr "表を開く"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/TableCtrl.svelte
+#, fuzzy
 msgid "Create table"
-msgstr ""
+msgstr "表を作成"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/TableCtrl.svelte
+#, fuzzy
 msgid "Reminder..."
-msgstr ""
+msgstr "注意..."
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/TableCtrl.svelte
+#, fuzzy
 msgid "Once you have created and saved your table, please remember to add it."
-msgstr ""
+msgstr "表を作成して保存したら, 忘れずに追加してください."
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/UnknownCtrl.svelte
+#, fuzzy
 msgid "Deleted"
-msgstr ""
+msgstr "削除しました"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/UnknownCtrl.svelte
+#, fuzzy
 msgid "Unrecognised param deleted. Undo?"
-msgstr ""
+msgstr "認識できないパラメータを削除しました. 元に戻しますか?"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/UnknownCtrl.svelte
+#, fuzzy
 msgid "Delete unrecognised param?"
-msgstr ""
+msgstr "認識できないパラメータを削除しますか?"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/VersionCtrl.svelte
+#, fuzzy
 msgid "Fetching versions from GitHub..."
-msgstr ""
+msgstr "GitHubからバージョンを取得中..."
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/VersionCtrl.svelte
+#, fuzzy
 msgid "latest"
-msgstr ""
+msgstr "最新"
 
 #: psychopy-studio/src/lib/pavlovia/CommitDlg.svelte
+#, fuzzy
 msgid "Commit changes"
-msgstr ""
+msgstr "変更をコミット"
 
 #: psychopy-studio/src/lib/pavlovia/CommitDlg.svelte
+#, fuzzy
 msgid "Briefly describe the changes made since last sync."
-msgstr ""
+msgstr "前回の同期以降の変更内容を簡潔に記入してください."
 
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
+#, fuzzy
 msgid "Switch user..."
-msgstr ""
+msgstr "ユーザーを切り替え..."
 
 #: psychopy-studio/src/lib/python/PythonErrors.svelte
+#, fuzzy
 msgid "Python error, click to show"
-msgstr ""
+msgstr "Pythonエラー, クリックで表示"
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Downloading UV (a Python installer)..."
-msgstr ""
+msgstr "UV(Pythonインストーラ)をダウンロード中..."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid ""
 "### Downloading UV (a Python installer)...\n"
 "This is a program we use to install Python. Once it's finished installing, you won't have to see this message again."
 msgstr ""
+"### UV(Pythonインストーラ)をダウンロード中...\n"
+"これはPythonのインストールに使用するプログラムです. インストールが完了すれば, このメッセージは今後表示されません."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Installing Python..."
-msgstr ""
+msgstr "Pythonをインストール中..."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "### Installing Python (${pyVersion})...\n"
 "This may take some time and, unfortunately, cannot be done in the background. Once it's finished installing, you won't have to see this message again."
 msgstr ""
+"### Python (${pyVersion}) をインストール中...\n"
+"これには時間がかかることがあり, 残念ながらバックグラウンドでは実行できません. インストールが完了すれば, このメッセージは今後表示されません."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Installing PsychoPy library..."
-msgstr ""
+msgstr "PsychoPyライブラリをインストール中..."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "### Installing PsychoPy library (${version ? version : \"latest version\"})...\n"
 "This may take some time and, unfortunately, cannot be done in the background. Once it's finished installing, you won't have to see this message again."
 msgstr ""
+"### PsychoPyライブラリ (${version ? version : \"latest version\"}) をインストール中...\n"
+"これには時間がかかることがあり, 残念ながらバックグラウンドでは実行できません. インストールが完了すれば, このメッセージは今後表示されません."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Connecting Python"
-msgstr ""
+msgstr "Pythonに接続中"
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Connected Python"
-msgstr ""
+msgstr "Pythonに接続しました"
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Starting Python..."
-msgstr ""
+msgstr "Pythonを起動中..."
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
+#, fuzzy
 msgid "Successfully started Python"
-msgstr ""
+msgstr "Pythonを起動しました"
 
 #: psychopy-studio/src/lib/ui/button/Button.svelte
+#, fuzzy
 msgid "Failed, click to show error"
-msgstr ""
+msgstr "失敗しました, クリックでエラーを表示"
 
 #: psychopy-studio/src/lib/ui/menu/frameMenu/Menu.svelte
+#, fuzzy
 msgid "Menu"
-msgstr ""
+msgstr "メニュー"
 
 #: psychopy-studio/src/routes/+page.svelte
+#, fuzzy
 msgid "Builder"
-msgstr ""
+msgstr "Builder"
 
 #: psychopy-studio/src/routes/+page.svelte
+#, fuzzy
 msgid ""
 "Generate experiments easily using an intuitive graphical user interface "
 "(GUI)."
-msgstr ""
+msgstr "直感的なグラフィカルユーザーインターフェース(GUI)で簡単に実験を作成します."
 
 #: psychopy-studio/src/routes/+page.svelte
+#, fuzzy
 msgid "Coder"
-msgstr ""
+msgstr "Coder"
 
 #: psychopy-studio/src/routes/+page.svelte
+#, fuzzy
 msgid "Write and edit code directly in a variety of languages."
-msgstr ""
+msgstr "さまざまな言語のコードを直接記述・編集します."
 
 #: psychopy-studio/src/routes/+page.svelte
+#, fuzzy
 msgid "Coordinate running experiments and scripts and view any output."
-msgstr ""
+msgstr "実験やスクリプトの実行を管理し, 出力を確認します."
 
 #: psychopy-studio/src/routes/builder/+page.svelte
+#, fuzzy
 msgid "PsychoPy Builder"
-msgstr ""
+msgstr "PsychoPy Builder"
 
 #: psychopy-studio/src/routes/builder/+page.svelte
+#, fuzzy
 msgid "Routines"
-msgstr ""
+msgstr "Routine"
 
 #: psychopy-studio/src/routes/builder/+page.svelte
+#, fuzzy
 msgid "Components"
-msgstr ""
+msgstr "コンポーネント"
 
 #: psychopy-studio/src/routes/builder/+page.svelte
+#, fuzzy
 msgid "Flow"
-msgstr ""
+msgstr "Flow"
 
 #: psychopy-studio/src/lib/pavlovia/utils.svelte.js
 #: psychopy-studio/src/routes/builder/callbacks.svelte.js
 #: psychopy-studio/src/routes/runner/callbacks.svelte.js
+#, fuzzy
 msgid "PsychoPy Experiments"
-msgstr ""
+msgstr "PsychoPyの実験"
 
 #: psychopy-studio/src/routes/builder/components/ElementButton.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "New {}"
-msgstr ""
+msgstr "新規{}"
 
 #: psychopy-studio/src/routes/builder/components/FilterDialog.svelte
+#, fuzzy
 msgid "Show only Components which work with..."
-msgstr ""
+msgstr "以下で動作するコンポーネントのみ表示..."
 
 #: psychopy-studio/src/routes/builder/components/FilterDialog.svelte
+#, fuzzy
 msgid "PsychoPy (local)"
-msgstr ""
+msgstr "PsychoPy (ローカル)"
 
 #: psychopy-studio/src/routes/builder/components/FilterDialog.svelte
+#, fuzzy
 msgid "PsychoJS (online)"
-msgstr ""
+msgstr "PsychoJS (オンライン)"
 
 #: psychopy-studio/src/routes/builder/components/FilterDialog.svelte
+#, fuzzy
 msgid "Both"
-msgstr ""
+msgstr "両方"
 
 #: psychopy-studio/src/routes/builder/components/Panel.svelte
+#, fuzzy
 msgid "Reload Components"
-msgstr ""
+msgstr "コンポーネントを再読み込み"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
+#, fuzzy
 msgid "Add Loop"
-msgstr ""
+msgstr "Loopを追加"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
+#, fuzzy
 msgid "Add a loop to the experiment flow"
-msgstr ""
+msgstr "実験のFlowにLoopを追加します"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
+#, fuzzy
 msgid "Loading loops..."
-msgstr ""
+msgstr "Loopを読み込み中..."
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "New {}..."
-msgstr ""
+msgstr "新規{}..."
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
+#, fuzzy
 msgid "New loop"
-msgstr ""
+msgstr "新規Loop"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
+#, fuzzy
 msgid "Add Routine"
-msgstr ""
+msgstr "Routineを追加"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
+#, fuzzy
 msgid "Add a Routine to the experiment flow"
-msgstr ""
+msgstr "実験のFlowにRoutineを追加します"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
 #: psychopy-studio/src/routes/builder/routines/Notebook.svelte
+#, fuzzy
 msgid "New Routine..."
-msgstr ""
+msgstr "新規Routine..."
 
 #: psychopy-studio/src/routes/builder/ribbon/InstallPrompt.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Installing PsychoPy {}..."
-msgstr ""
+msgstr "PsychoPy {}をインストール中..."
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "New file"
-msgstr ""
+msgstr "新規ファイル"
 
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Open file"
-msgstr ""
+msgstr "ファイルを開く"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Save file"
-msgstr ""
+msgstr "ファイルを保存"
 
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Save file as"
-msgstr ""
+msgstr "名前を付けて保存"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/files/FileNode.svelte
 #: psychopy-studio/src/routes/coder/files/FolderNode.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Reveal in file explorer"
-msgstr ""
+msgstr "ファイルエクスプローラで表示"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Close window"
-msgstr ""
+msgstr "ウィンドウを閉じる"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Reset preferences"
-msgstr ""
+msgstr "設定をリセット"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "View"
-msgstr ""
+msgstr "表示"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Show developer tools"
-msgstr ""
+msgstr "開発者ツールを表示"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Show readme"
-msgstr ""
+msgstr "READMEを表示"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Copy current Routine"
-msgstr ""
+msgstr "現在のRoutineをコピー"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Toggle pilot mode"
-msgstr ""
+msgstr "Pilotモードを切り替え"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Send to Runner"
-msgstr ""
+msgstr "Runnerに送る"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Compile Python"
-msgstr ""
+msgstr "Pythonにコンパイル"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Pilot in Python"
-msgstr ""
+msgstr "PythonでPilot"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Run in Python"
-msgstr ""
+msgstr "Pythonで実行"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Compile JS"
-msgstr ""
+msgstr "JSにコンパイル"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメント"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Help Forum"
-msgstr ""
+msgstr "ヘルプフォーラム"
 
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Open the monitor center"
-msgstr ""
+msgstr "モニターセンターを開く"
 
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Open the device manager"
-msgstr ""
+msgstr "デバイスマネージャーを開く"
 
 #: psychopy-studio/src/routes/builder/ribbon/SavePrompt.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "'{}' has unsaved changes, save now?"
-msgstr ""
+msgstr "'{}'には未保存の変更があります. 今すぐ保存しますか?"
 
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
+#, fuzzy
 msgid "Edit settings for this Routine"
-msgstr ""
+msgstr "このRoutineの設定を編集"
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
+#, fuzzy
 msgid "Edit Component"
-msgstr ""
+msgstr "コンポーネントを編集"
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
+#, fuzzy
 msgid "Enable Component"
-msgstr ""
+msgstr "コンポーネントを有効化"
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
+#, fuzzy
 msgid "Delete Component"
-msgstr ""
+msgstr "コンポーネントを削除"
 
 #: psychopy-studio/src/routes/builder/routines/Notebook.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Delete {}"
-msgstr ""
+msgstr "{}を削除"
 
 #: psychopy-studio/src/lib/ui/dialog/DialogButton.svelte
+#, fuzzy
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #: psychopy-studio/src/routes/coder/+page.svelte
+#, fuzzy
 msgid "PsychoPy Coder"
-msgstr ""
+msgstr "PsychoPy Coder"
 
 #: psychopy-studio/src/routes/coder/+page.svelte
 #: psychopy-studio/src/routes/runner/+page.svelte
+#, fuzzy
 msgid "Files"
-msgstr ""
+msgstr "ファイル"
 
 #: psychopy-studio/src/routes/coder/+page.svelte
+#, fuzzy
 msgid "Console"
-msgstr ""
+msgstr "コンソール"
 
 #: psychopy-studio/src/routes/coder/+page.svelte
+#, fuzzy
 msgid "Outline"
-msgstr ""
+msgstr "アウトライン"
 
 #: psychopy-studio/src/lib/pavlovia/utils.svelte.js
 #: psychopy-studio/src/routes/coder/callbacks.svelte.js
 #: psychopy-studio/src/routes/runner/callbacks.svelte.js
+#, fuzzy
 msgid "Python Scripts"
-msgstr ""
+msgstr "Pythonスクリプト"
 
 #: psychopy-studio/src/lib/pavlovia/utils.svelte.js
 #: psychopy-studio/src/routes/coder/callbacks.svelte.js
+#, fuzzy
 msgid "JavaScript Scripts"
-msgstr ""
+msgstr "JavaScriptスクリプト"
 
 #: psychopy-studio/src/routes/coder/callbacks.svelte.js
+#, fuzzy
 msgid "Data Files"
-msgstr ""
+msgstr "データファイル"
 
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Open folder..."
-msgstr ""
+msgstr "フォルダを開く..."
 
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
+#, fuzzy
 msgid "Up to parent directory"
-msgstr ""
+msgstr "親ディレクトリへ"
 
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
+#, fuzzy
 msgid "Navigate to current file"
-msgstr ""
+msgstr "現在のファイルへ移動"
 
 #: psychopy-studio/src/routes/coder/files/FolderNode.svelte
+#, fuzzy
 msgid "Could not access files"
-msgstr ""
+msgstr "ファイルにアクセスできませんでした"
 
 #: psychopy-studio/src/routes/coder/outline/OutlinePanel.svelte
+#, fuzzy
 msgid "No open file"
-msgstr ""
+msgstr "開いているファイルはありません"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Send experiment to runner"
-msgstr ""
+msgstr "実験をRunnerに送る"
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Pilot locally"
-msgstr ""
+msgstr "ローカルでPilot"
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Run locally"
-msgstr ""
+msgstr "ローカルで実行"
 
 #: psychopy-studio/src/routes/coder/ribbon/SavePrompt.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "{}' has unsaved changes, save now?"
-msgstr ""
+msgstr "{}'には未保存の変更があります. 今すぐ保存しますか?"
 
 #: psychopy-studio/src/routes/coder/shell/Shell.svelte
+#, fuzzy
 msgid "Clear output"
-msgstr ""
+msgstr "出力をクリア"
 
 #: psychopy-studio/src/routes/runner/+page.svelte
+#, fuzzy
 msgid "PsychoPy Runner"
-msgstr ""
+msgstr "PsychoPy Runner"
 
 #: psychopy-studio/src/routes/runner/callbacks.svelte.js
+#, fuzzy
 msgid "PsychoPy Runner Configurations"
-msgstr ""
+msgstr "PsychoPy Runnerの構成"
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
 #: psychopy-studio/src/routes/runner/files/Panel.svelte
+#, fuzzy
 msgid "Add file"
-msgstr ""
+msgstr "ファイルを追加"
 
 #: psychopy-studio/src/routes/runner/outputs/AlertsOutput.svelte
+#, fuzzy
 msgid "Clear alerts"
-msgstr ""
+msgstr "アラートをクリア"
 
 #: psychopy-studio/src/routes/runner/outputs/PavloviaOutput.svelte
+#, fuzzy
 msgid "Clear pavlovia output"
-msgstr ""
+msgstr "Pavloviaの出力をクリア"
 
 #: psychopy-studio/src/routes/coder/shell/StdoutOutput.svelte
 #: psychopy-studio/src/routes/runner/outputs/StdoutOutput.svelte
+#, fuzzy
 msgid "Clear stdout"
-msgstr ""
+msgstr "標準出力をクリア"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Run in browser"
-msgstr ""
+msgstr "ブラウザで実行"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "New configuration"
-msgstr ""
+msgstr "新規構成"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Open configuration"
-msgstr ""
+msgstr "構成を開く"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Save configuration"
-msgstr ""
+msgstr "構成を保存"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Save configuration as"
-msgstr ""
+msgstr "構成に名前を付けて保存"
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Experiment will run in pilot mode"
-msgstr ""
+msgstr "実験はPilotモードで実行されます"
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Experiment will run in run mode"
-msgstr ""
+msgstr "実験は本番モードで実行されます"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Open selection in Builder"
-msgstr ""
+msgstr "選択項目をBuilderで開く"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Open selection in Coder"
-msgstr ""
+msgstr "選択項目をCoderで開く"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Pilot experiment locally"
-msgstr ""
+msgstr "ローカルで実験の動作確認(pilot)"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Run experiment locally"
-msgstr ""
+msgstr "ローカルで実験を実行"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Pilot experiment in browser"
-msgstr ""
+msgstr "ブラウザで実験の動作確認(pilot)"
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Run experiment in browser"
-msgstr ""
+msgstr "ブラウザで実験を実行"
 
 #: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
@@ -6880,167 +7098,205 @@ msgid "Update"
 msgstr "更新"
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
+#, fuzzy
 msgid "Add a text marker in the hdf5 file"
-msgstr ""
+msgstr "hdf5ファイルにテキストマーカーを追加します"
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
+#, fuzzy
 msgid "Send when..."
-msgstr ""
+msgstr "送信タイミング..."
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
+#, fuzzy
 msgid "When to send the marker?"
-msgstr ""
+msgstr "マーカーを送信するタイミングを指定します"
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
+#, fuzzy
 msgid "Text to send to the eyetracker (128 characters max)"
-msgstr ""
+msgstr "アイトラッカーに送信するテキストを指定します (最大128文字)"
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
+#, fuzzy
 msgid "Category"
-msgstr ""
+msgstr "カテゴリ"
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
+#, fuzzy
 msgid "Optional grouping text for the message (32 characters max)"
-msgstr ""
+msgstr "メッセージをグループ分けするための任意のテキストを指定します (最大32文字)"
 
 #: psychopy/psychopy/experiment/components/movie/__init__.py
+#, fuzzy
 msgid "Speaker device"
-msgstr ""
+msgstr "スピーカーデバイス"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid "EOL (end-of-line) character"
-msgstr ""
+msgstr "EOL(行末)文字"
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
+#, fuzzy
 msgid ""
 "Character automatically added to end of each message - leave blank for no "
 "EOL"
-msgstr ""
+msgstr "各メッセージの末尾に自動的に追加される文字を指定します. EOLが不要な場合は空白にしてください"
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
+#, fuzzy
 msgid "From preferences..."
-msgstr ""
+msgstr "設定から..."
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
+#, fuzzy
 msgid ""
 "Text can be **bold**, *italic*, ***bold italic*** or [color=red]colorful[/color]. To use a regular asterisk, remember to \\*escape\\* it.\n"
 "\n"
 "Line breaks are allowed!"
 msgstr ""
+"テキストは**太字**, *斜体*, ***太字斜体***, [color=red]色付き[/color]にできます. 通常のアスタリスクを使うには\\*エスケープ\\*することを忘れずに.\n"
+"\n"
+"改行も使用できます!"
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
+#, fuzzy
 msgid "Syntax to use for inline text formatting"
-msgstr ""
+msgstr "インラインのテキスト書式に使用する構文を指定します"
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
+#, fuzzy
 msgid "Formatting style"
-msgstr ""
+msgstr "書式スタイル"
 
 #: psychopy/psychopy/hardware/speaker/speaker_sounddevice.py
+#, fuzzy
 msgid "No audio output devices found when querying with sounddevice!"
-msgstr ""
+msgstr "sounddeviceで問い合わせましたが, 音声出力デバイスが見つかりません!"
 
 #: psychopy/psychopy/tools/pkgtools.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "Could not install package {} asynchronously as psychopy_app.jobs is not "
 "found. Defaulting to synchronous install."
 msgstr ""
+"psychopy_app.jobsが見つからないため, パッケージ{}を非同期でインストールできませんでした. 同期インストールを使用します."
 
 #: psychopy-studio/src/lib/pavlovia/utils.svelte.js
+#, fuzzy
 msgid "Choose folder for Pavlovia project"
-msgstr ""
+msgstr "Pavloviaプロジェクトのフォルダを選択"
 
 #: psychopy-studio/src/lib/pavlovia/ProjectPanel.svelte
 #: psychopy-studio/src/lib/pavlovia/utils.svelte.js
+#, fuzzy
 msgid "Clone"
-msgstr ""
+msgstr "クローン"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/MonitorCenterDlg.svelte
 #: psychopy-studio/src/lib/dialogs/monitorCenter/MonitorPage.svelte
+#, fuzzy
 msgid "Add a new monitor configuration"
-msgstr ""
+msgstr "新しいモニター構成を追加"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DeviceCtrl.svelte
+#, fuzzy
 msgid "No relevant devices added, use device manager to add devices."
-msgstr ""
+msgstr "該当するデバイスが追加されていません. デバイスマネージャーでデバイスを追加してください."
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DeviceCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "No {} devices added, use device manager to add {} devices.\n"
-msgstr ""
+msgstr "{}デバイスが追加されていません. デバイスマネージャーで{}デバイスを追加してください.\n"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DeviceCtrl.svelte
+#, fuzzy
 msgid ""
 "No relevant devices added, use device manager to add devices.\n"
 "\n"
 "Relevant devices are: "
 msgstr ""
+"該当するデバイスが追加されていません. デバイスマネージャーでデバイスを追加してください.\n"
+"\n"
+"該当するデバイス: "
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DictCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Duplicate field name: {}"
-msgstr ""
+msgstr "フィールド名が重複しています: {}"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DictCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Name of {} key"
-msgstr ""
+msgstr "{}キーの名前"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/DictCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Starting value of {key} in {param}"
-msgstr ""
+msgstr "{param}の{key}の初期値"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/ValidatorCtrl.svelte
+#, fuzzy
 msgid ""
 "No validators added, add one via the Validation section of the Components "
 "panel."
-msgstr ""
+msgstr "バリデーターが追加されていません. コンポーネントパネルのValidationセクションから追加してください."
 
 #: psychopy-studio/src/lib/python/PythonErrors.svelte
+#, fuzzy
 msgid "Python error"
-msgstr ""
+msgstr "Pythonエラー"
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
+#, fuzzy
 msgid "Copy Component"
-msgstr ""
+msgstr "コンポーネントをコピー"
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
+#, fuzzy
 msgid "Above"
-msgstr ""
+msgstr "上"
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
+#, fuzzy
 msgid "Below"
-msgstr ""
+msgstr "下"
 
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
+#, fuzzy
 msgid "Current file path"
-msgstr ""
+msgstr "現在のファイルのパス"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Manage plugins and packages"
-msgstr ""
+msgstr "プラグインとパッケージを管理"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Open PsychoPy user folder"
-msgstr ""
+msgstr "PsychoPyのユーザーフォルダを開く"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "PsychoPy Homepage"
-msgstr ""
+msgstr "PsychoPyホームページ"
 
 #: psychopy-studio/src/routes/coder/shell/Shell.svelte
+#, fuzzy
 msgid "Python shell input"
-msgstr ""
+msgstr "Pythonシェル入力"
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
+#, fuzzy
 msgid "quitPsychoJS needs to be returned"
-msgstr ""
+msgstr "quitPsychoJSを返す必要があります"
 
 #: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
@@ -11327,99 +11583,117 @@ msgid "Add custom item"
 msgstr "カスタムアイテムを追加"
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, fuzzy
 msgid "All Files (*.*)|*.*"
-msgstr ""
+msgstr "すべてのファイル (*.*)|*.*"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "App info"
-msgstr ""
+msgstr "アプリ情報"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Copy text"
-msgstr ""
+msgstr "テキストをコピー"
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#, fuzzy
 msgid ""
 "Could not detect the necessary Python library for translating code. Install "
 "it now?"
-msgstr ""
+msgstr "コードの変換に必要なPythonライブラリが見つかりませんでした. 今すぐインストールしますか?"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Cut text"
-msgstr ""
+msgstr "テキストを切り取り"
 
 #: psychopy-app/src/psychopy_app/builder/builder.py
+#, fuzzy
 msgid "Device Manager"
-msgstr ""
+msgstr "デバイスマネージャー"
 
 #: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+#, fuzzy
 msgid ""
 "Failed to access the plugin index from the server. Please check your "
 "internet connection and try again."
-msgstr ""
+msgstr "サーバーからプラグインの一覧を取得できませんでした. インターネット接続を確認して再試行してください."
 
 #: psychopy-app/src/psychopy_app/runner/runner.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "File {} does not exist in this location. Remove item from Runner?"
-msgstr ""
+msgstr "ファイル{}はこの場所に存在しません. Runnerから項目を削除しますか?"
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "Font `{font}{style}` not available in weight `{weight}`, component `{name}` "
 "will use default font."
 msgstr ""
+"フォント`{font}{style}`はウェイト`{weight}`で利用できないため, コンポーネント`{name}`は既定のフォントを使用します."
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Force reload window"
-msgstr ""
+msgstr "ウィンドウを強制的に再読み込み"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Minimize window"
-msgstr ""
+msgstr "ウィンドウを最小化"
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, fuzzy
 msgid "Once you have created and saved your table, remember to add it here."
-msgstr ""
+msgstr "表を作成して保存したら, ここに忘れずに追加してください."
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Paste text"
-msgstr ""
+msgstr "テキストを貼り付け"
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, fuzzy
 msgid "Please enter a name"
-msgstr ""
+msgstr "名前を入力してください"
 
 #: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+#, fuzzy
 msgid "Plugin Manager Error"
-msgstr ""
+msgstr "プラグインマネージャーのエラー"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Reload window"
-msgstr ""
+msgstr "ウィンドウを再読み込み"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Reset zoom"
-msgstr ""
+msgstr "ズームをリセット"
 
 #: psychopy-app/src/psychopy_app/builder/builder.py
+#, fuzzy
 msgid "Setup named devices for your Components to refer to"
-msgstr ""
+msgstr "コンポーネントから参照する名前付きデバイスを設定します"
 
 #: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, fuzzy
 msgid "Specify file or files..."
-msgstr ""
+msgstr "ファイルを指定..."
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
@@ -11427,138 +11701,175 @@ msgid "PsychoPy"
 msgstr "PsychoPy"
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
+#, fuzzy
 msgid "Add a hyphen when text wraps in the middle of a word"
-msgstr ""
+msgstr "単語の途中で折り返す時にハイフンを追加します"
 
 #: psychopy-studio/src/routes/builder/components/FilterDialog.svelte
+#, fuzzy
 msgid "Any"
-msgstr ""
+msgstr "任意"
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid ""
 "Axis values whose magnitude falls below this are reported as zero, which "
 "suppresses drift on an idle stick."
-msgstr ""
+msgstr "絶対値がこの値未満の軸の値は0として報告されます. これにより, 操作していないスティックのドリフトを抑制します."
 
 #: psychopy-studio/src/lib/pavlovia/demos/BrowseDemosDlg.svelte
+#, fuzzy
 msgid "Browse demos"
-msgstr ""
+msgstr "デモを閲覧"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Check out [demo experiments on "
 "Pavlovia](https://pavlovia.org/explore/demos?sort=DEFAULT) for a useful "
 "starting point"
 msgstr ""
+"手始めに[Pavloviaのデモ実験](https://pavlovia.org/explore/demos?sort=DEFAULT)を見てみましょう"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Chocolate probably won't help, but does that mean you shouldn't try it?"
-msgstr ""
+msgstr "チョコレートが役に立つとは思えませんが, だからといって試すべきでないとは限りませんよね?"
 
 #: psychopy-studio/src/lib/pavlovia/utils.svelte.js
+#, fuzzy
 msgid "Choose folder for downloaded project"
-msgstr ""
+msgstr "ダウンロードしたプロジェクトのフォルダを選択"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "Comments are a love note to future you. Always comment your code!"
-msgstr ""
+msgstr "コメントは未来の自分へのラブレターです. コードには必ずコメントを書きましょう!"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/ScreenCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "Could only detect {numScreens} screen(s), so will display on screen {target}"
-msgstr ""
+msgstr "{numScreens}台の画面しか検出できなかったため, 画面{target}に表示します"
 
 #: psychopy/psychopy/experiment/components/parallelOut/__init__.py
+#, fuzzy
 msgid "Custom port address"
-msgstr ""
+msgstr "任意のポートアドレス"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Data can be output in many different formats, but it's worth saving the "
 "'psydat' (aka pickle) format as well as the others. Although this isn't "
 "'human readable' it stores more information than excel/csv files including "
 "an entire copy of your actual experiment!"
 msgstr ""
+"データはさまざまな形式で出力できますが, 他の形式に加えて'psydat'(pickle)形式でも保存しておく価値があります. "
+"人間が読める形式ではありませんが, 実験そのもののコピーを含め, excel/csvファイルより多くの情報を保存できます!"
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "Deadzone"
-msgstr ""
+msgstr "デッドゾーン"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "Debugging is like a murder mystery, except you're the murderer..."
-msgstr ""
+msgstr "デバッグは殺人ミステリーのようなものです. ただし犯人はあなた自身ですが..."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Degrees of visual angle are 'device independent'. Normalized units mean that"
 " your stimulus will be different on each different computer. Do you really "
 "want that?"
 msgstr ""
+"視角(度)は「デバイスに依存しない」単位です. 正規化単位では, 刺激の見え方がコンピュータごとに異なってしまいます. 本当にそれでいいですか?"
 
 #: psychopy/psychopy/experiment/components/joyButtons/__init__.py
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid ""
 "Deprecated: index of the joystick to use when no Device is named above. "
 "Prefer naming a device in the Device field, which lets the same joystick be "
 "shared between Components."
 msgstr ""
+"非推奨: 上でデバイスが指定されていない場合に使用するジョイスティックの番号を指定します. Deviceフィールドでデバイスを指定することを推奨します. "
+"そうすることで, 複数のコンポーネント間で同じジョイスティックを共有できます."
 
 #: psychopy/psychopy/experiment/components/joyButtons/__init__.py
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "Device number (deprecated)"
-msgstr ""
+msgstr "デバイス番号 (非推奨)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Did you know you can disable Routines and Components? Check the 'Testing' "
 "tab of the Component or Routine Settings"
 msgstr ""
+"Routineやコンポーネントを無効化できることをご存知ですか? コンポーネントまたはRoutineの設定の「Testing」タブを確認してください"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Did your stimulus not appear? Was it really tiny? Is it the same color as "
 "your background?"
-msgstr ""
+msgstr "刺激が表示されませんか? 小さすぎませんか? 背景と同じ色になっていませんか?"
 
 #: psychopy-studio/src/lib/ui/button/DropdownButton.svelte
+#, fuzzy
 msgid "Expand"
-msgstr ""
+msgstr "展開"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
+#, fuzzy
 msgid "Failed to load Routines"
-msgstr ""
+msgstr "Routineの読み込みに失敗しました"
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
+#, fuzzy
 msgid "Failed to load loops"
-msgstr ""
+msgstr "Loopの読み込みに失敗しました"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "For fMRI block designs you want to use non-slip timing (trials of pre-"
 "determined duration). Builder indicates these with a green icon in the Flow "
 "panel"
 msgstr ""
+"fMRIのブロックデザインでは, non-slipタイミング(持続時間があらかじめ決まった試行)を使用しましょう. "
+"BuilderではFlowパネル上で緑のアイコンで示されます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "For the best audio timing you need to use the 'PTB' backend (set this in the"
 " app Preferences)."
-msgstr ""
+msgstr "最も正確な音声タイミングを得るには'PTB'バックエンドを使用する必要があります(アプリの設定で指定します)."
 
 #: psychopy-studio/src/lib/pavlovia/ProjectPanel.svelte
+#, fuzzy
 msgid "Fork project?"
-msgstr ""
+msgstr "プロジェクトをフォークしますか?"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Friend of the show Wakefield has been posting daily tips on the forum. [Give"
 " them a look!](https://discourse.psychopy.org/t/wakefields-daily-tips-"
 "index/43722)"
 msgstr ""
+"番組の友人Wakefieldさんがフォーラムに毎日ヒントを投稿しています. "
+"[ぜひご覧ください!](https://discourse.psychopy.org/t/wakefields-daily-tips-"
+"index/43722)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "From Builder you can use 'Compile' to generate the Python script that "
 "controls your experiment, and view or edit it in the Coder. Any edits are "
@@ -11566,583 +11877,736 @@ msgid ""
 " edit the generated code](https://discourse.psychopy.org/t/wakefields-daily-"
 "tips/43371/17)."
 msgstr ""
+"Builderで「コンパイル」を使うと, 実験を制御するPythonスクリプトを生成し, Coderで表示・編集できます. ただし, "
+"編集内容はBuilderには反映されません. "
+"[生成されたコードを編集するのは(ほぼ)常に間違いです](https://discourse.psychopy.org/t/wakefields-"
+"daily-tips/43371/17)."
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "GLFW"
-msgstr ""
+msgstr "GLFW"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Get your department to buy a site licence for Pavlovia.org. You'll be "
 "helping fund PsychoPy development and you'll be able to run unlimited online"
 " studies."
 msgstr ""
+"所属部署でPavlovia.orgのサイトライセンスを購入しましょう. PsychoPyの開発資金の支援になり, オンライン実験を無制限に実施できます."
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
+#, fuzzy
 msgid "Hyphenate"
-msgstr ""
+msgstr "ハイフネーション"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "If you like PsychoPy spread the word"
-msgstr ""
+msgstr "PsychoPyを気に入ったら, ぜひ広めてください"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "If you set a description for a Routine in its Routine Settings, whatever you"
 " wrote will appear when you hover over that Routine in the flow"
-msgstr ""
+msgstr "RoutineのRoutine設定で説明を設定すると, Flow上でそのRoutineにマウスを重ねた時に表示されます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "If you write to the forum, make it clear whether you're running locally or "
 "online."
-msgstr ""
+msgstr "フォーラムに投稿する時は, ローカルで実行しているのかオンラインで実行しているのかを明記してください."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "If you're running in a browser and can't find an error message, try [opening"
 " your browser's developer tools](https://balsamiq.com/support/faqs/browser-"
 "console); it may be in the console."
 msgstr ""
+"ブラウザで実行していてエラーメッセージが見つからない場合は, "
+"[ブラウザの開発者ツールを開いて](https://balsamiq.com/support/faqs/browser-console)みてください. "
+"コンソールに表示されているかもしれません."
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
+#, fuzzy
 msgid "Ignore keypresses outside PsychoPy"
-msgstr ""
+msgstr "PsychoPy外でのキー押しを無視"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "In Builder you can control what appears in the 'Experiment Info' dialog box "
 "in the Experiment Settings"
-msgstr ""
+msgstr "Builderでは, 「実験情報」ダイアログに表示する内容を実験の設定で制御できます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "In Python, the values True and False must have capitals and really just "
 "stand for 1 and 0."
-msgstr ""
+msgstr "Pythonでは, TrueとFalseは大文字で始める必要があり, 実際には1と0を表しているだけです."
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "Input library"
-msgstr ""
+msgstr "入力ライブラリ"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Is your experiment tedious to run? Check out the [psychopy-"
 "monkeys](https://teparsons.github.io/psychopy-monkeys/) plugin - adding a "
 "monkey to your experiment makes it easy to skip some parts in pilot mode."
 msgstr ""
+"実験の実行が面倒ですか? [psychopy-monkeys](https://teparsons.github.io/psychopy-"
+"monkeys/)プラグインを試してみてください. 実験にmonkeyを追加すると, Pilotモードで一部を簡単にスキップできます."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "It's a really good idea to run in pilot mode and check your data are all "
 "being saved as you like BEFORE running all of your participants!"
-msgstr ""
+msgstr "すべての参加者で実験を行う「前に」, Pilotモードで実行してデータが意図通りに保存されているか確認するのがとても良い考えです!"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "It's entirely possible that someone has made an experiment similar to what "
 "you want to do, so its worth [browsing public "
 "projects](https://pavlovia.org/explore?sort=DEFAULT) on Pavlovia before you "
 "start"
 msgstr ""
+"あなたがやりたいことに似た実験を誰かが既に作っている可能性は十分にあるので, "
+"始める前にPavloviaで[公開プロジェクトを閲覧する](https://pavlovia.org/explore?sort=DEFAULT)価値があります"
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "Joystick / Gamepad"
-msgstr ""
+msgstr "ジョイスティック / ゲームパッド"
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
+#, fuzzy
 msgid "Legacy keyboard backends work better in Python 3.13 and earlier"
-msgstr ""
+msgstr "旧式のキーボードバックエンドはPython 3.13以前でより良く動作します"
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid ""
 "Library used to read this device. Pyglet needs an open pyglet Window which "
 "is being flipped; GLFW works with any window backend, or none; Virtual "
 "emulates a joystick using 'ctrl' + 'alt' + a number key and the mouse."
 msgstr ""
+"このデバイスの読み取りに使用するライブラリを指定します. Pygletでは, フリップされている開いたpygletウィンドウが必要です. "
+"GLFWは任意のウィンドウバックエンドで, あるいはウィンドウなしでも動作します. Virtualは'ctrl' + 'alt' + "
+"数字キーとマウスを使ってジョイスティックをエミュレートします."
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
+#, fuzzy
 msgid "Loading Routines..."
-msgstr ""
+msgstr "Routineを読み込み中..."
 
 #: psychopy-studio/src/routes/builder/+page.svelte
 #: psychopy-studio/src/routes/builder/routines/Notebook.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Loading {}..."
-msgstr ""
+msgstr "{}を読み込み中..."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Menu items show you the current key bindings (which can be configured in "
 "preferences)"
-msgstr ""
+msgstr "メニュー項目には現在のキー割り当てが表示されます(設定で変更できます)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "Most buttons have helpful usage tips if you hover over them"
-msgstr ""
+msgstr "ほとんどのボタンは, マウスを重ねると便利な使い方のヒントが表示されます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Most dialogs have a help button that takes you to the relevant online "
 "documentation"
-msgstr ""
+msgstr "ほとんどのダイアログには, 関連するオンラインドキュメントを開くヘルプボタンがあります"
 
 #: psychopy-studio/src/routes/coder/+page.svelte
+#, fuzzy
 msgid "Navigation"
-msgstr ""
+msgstr "ナビゲーション"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Need sub-millisecond timing? Use Validator Routines to make sure you're "
 "*getting* sub-millisecond timing!"
 msgstr ""
+"ミリ秒未満のタイミング精度が必要ですか? Validator Routineを使って, 実際にミリ秒未満の精度が*得られている*ことを確認しましょう!"
 
 #: psychopy-studio/src/lib/ui/dialog/DialogButton.svelte
+#, fuzzy
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: psychopy/psychopy/hardware/speaker/speaker_psychtoolbox.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "No audio devices found! ({})"
-msgstr ""
+msgstr "音声デバイスが見つかりません! ({})"
 
 #: psychopy/psychopy/hardware/speaker/speaker_sounddevice.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "No default speaker specified in Preferences / Hardware, using the system "
 "default output: {}"
-msgstr ""
+msgstr "設定 / ハードウェアで既定のスピーカーが指定されていないため, システムの既定の出力を使用します: {}"
 
 #: psychopy/psychopy/hardware/speaker/speaker_psychtoolbox.py
 #: psychopy/psychopy/hardware/speaker/speaker_sounddevice.py
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "No speaker device found with index or name '{}'"
-msgstr ""
+msgstr "インデックスまたは名前が'{}'のスピーカーデバイスが見つかりません"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackagesPanel.svelte
+#, fuzzy
 msgid "Not installed"
-msgstr ""
+msgstr "未インストール"
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
+#, fuzzy
 msgid ""
 "Only collect responses when the PsychoPy window has focus (this is better "
 "for security)"
-msgstr ""
+msgstr "PsychoPyのウィンドウにフォーカスがある時のみ反応を記録します(セキュリティ上望ましい設定です)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Open Science Tools (that's us, the makers of PsychoPy!) offer "
 "[consultancy](https://psychopy.org/consultancy); we can teach you to use "
 "PsychoPy and even help you build an experiment"
 msgstr ""
+"Open Science "
+"Tools(PsychoPyの開発元です!)は[コンサルティング](https://psychopy.org/consultancy)を提供しています. "
+"PsychoPyの使い方の指導や, 実験の作成のお手伝いもできます"
 
 #: psychopy/psychopy/experiment/components/parallelOut/__init__.py
+#, fuzzy
 msgid "Parallel port to be used (choose 'custom' to specify any address)"
-msgstr ""
+msgstr "使用するパラレルポートを指定します(任意のアドレスを指定するには'custom'を選択)"
 
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
+#, fuzzy
 msgid ""
 "Pavlovia usernames should not be all numbers.\n"
 "\n"
 "Resolve online at [pavlovia.org](https://gitlab.pavlovia.org/-/profile/account)."
 msgstr ""
+"Pavloviaのユーザー名を数字のみにすることはできません.\n"
+"\n"
+"[pavlovia.org](https://gitlab.pavlovia.org/-/profile/account)で変更してください."
 
 #: psychopy-studio/src/lib/pavlovia/ProjectPanel.svelte
+#, fuzzy
 msgid "Point to a local clone of this project"
-msgstr ""
+msgstr "このプロジェクトのローカルクローンを指定"
 
 #: psychopy/psychopy/experiment/components/movie/__init__.py
+#, fuzzy
 msgid "Prevent the movie's audio from being loaded or played"
-msgstr ""
+msgstr "動画の音声を読み込まない・再生しないようにします"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "PsychoPy can handle many different units (degrees of visual angle, cm...) "
 "for your stimuli. But you need to tell it about your monitor first (see the "
 "online documentation on General > Units)"
 msgstr ""
+"PsychoPyでは刺激にさまざまな単位(視角, cmなど)を使用できます. ただし, "
+"先にモニターの情報を設定する必要があります(オンラインドキュメントのGeneral > Unitsを参照してください)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "PsychoPy is free. Please [cite the most recent "
 "paper](https://psychopy.org/about/index.html#citing-psychopy) if you use "
 "PsychoPy in published work"
 msgstr ""
+"PsychoPyは無料です. 研究成果の発表でPsychoPyを使用した場合は, "
+"[最新の論文を引用](https://psychopy.org/about/index.html#citing-psychopy)してください"
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "Pyglet"
-msgstr ""
+msgstr "Pyglet"
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/Dialog.svelte
+#, fuzzy
 msgid "Remove device"
-msgstr ""
+msgstr "デバイスを削除"
 
 #: psychopy-studio/src/lib/dialogs/preferences/PrefsDialog.svelte
+#, fuzzy
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "Reusing Routines wherever possible will make your experiment"
-msgstr ""
+msgstr "可能な限りRoutineを再利用すると, 実験が"
 
 #: psychopy-studio/src/lib/pavlovia/demos/BrowseDemos.svelte
+#, fuzzy
 msgid "Search demos..."
-msgstr ""
+msgstr "デモを検索..."
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackagesPanel.svelte
+#, fuzzy
 msgid "Search packages..."
-msgstr ""
+msgstr "パッケージを検索..."
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginsPanel.svelte
+#, fuzzy
 msgid "Search plugins..."
-msgstr ""
+msgstr "プラグインを検索..."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "Setting 'nReps' in a loop to 0 means the whole loop is skipped"
-msgstr ""
+msgstr "Loopの'nReps'を0にすると, Loop全体がスキップされます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Sites like [itch.io](https://itch.io/) and [Pexels](https://www.pexels.com/)"
 " can be a great resource for stimuli, especially if you want to gamify your "
 "experiment, but you should always check the license and be sure to credit "
 "the authors in your README file."
 msgstr ""
+"[itch.io](https://itch.io/)や[Pexels](https://www.pexels.com/)のようなサイトは, "
+"特に実験をゲーム化したい場合に刺激素材の良い入手先になりますが, 必ずライセンスを確認し, READMEファイルに作者のクレジットを記載してください."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Sometimes the correct response on a given trial is not to respond at all, "
 "such as in a go/no-go task. To score such responses properly, enter 'None' "
 "as the correct answer (no quotes) in the Builder dialog box."
 msgstr ""
+"go/no-go課題のように, 試行によっては反応しないことが正答となる場合があります. そのような反応を正しく採点するには, "
+"Builderのダイアログで正答に'None'(引用符なし)と入力してください."
 
 #: psychopy/psychopy/experiment/components/parallelOut/__init__.py
+#, fuzzy
 msgid "Specify any address for the port"
-msgstr ""
+msgstr "ポートの任意のアドレスを指定します"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Stay in the loop on upcoming training events via [our workshops "
 "site](https://workshops.psychopy.org/)"
 msgstr ""
+"[ワークショップのサイト](https://workshops.psychopy.org/)で今後のトレーニングイベントの最新情報をチェックしましょう"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "The [user forum](https://discourse.psychopy.org) is a great place to ask "
 "questions and receive updates"
-msgstr ""
+msgstr "[ユーザーフォーラム](https://discourse.psychopy.org)は質問をしたり最新情報を得たりするのに最適な場所です"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "The contents of the dialog box at the start of your experiment are "
 "controlled from the Experiment Settings button. You can use these values in "
 "your study by referring to the value in expInfo e.g. expInfo['participant']"
 msgstr ""
+"実験開始時のダイアログの内容は「実験の設定」ボタンから制御します. これらの値は, expInfoの値を参照することで実験内で使用できます. 例: "
+"expInfo['participant']"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "The default color values in PsychoPy range from -1 to +1, with 0 being the "
 "mean grey of the screen. So black is like the maximum decrement from grey "
 "and white is an increment. Right?"
 msgstr ""
+"PsychoPyの既定の色の値は-1から+1の範囲で, 0が画面の平均的な灰色です. つまり黒は灰色からの最大の減少, 白は増加にあたります. "
+"わかりますよね?"
 
 #: psychopy-studio/src/lib/pavlovia/ProjectPanel.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "This project belongs to {}, would you like to create a fork (copy) of it on "
 "your Pavlovia account?"
-msgstr ""
+msgstr "このプロジェクトは{}のものです. あなたのPavloviaアカウントにフォーク(コピー)を作成しますか?"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "To put a $ symbol in a stimulus, you need to use \\$, like this: 'You win "
 "\\$5.00!'. (This is only for input boxes, and not for code components.)"
 msgstr ""
+"刺激に$記号を表示するには, 'You win \\$5.00!'のように\\$を使用する必要があります. (これは入力欄の場合のみで, "
+"コードコンポーネントには当てはまりません.)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "To set stimulus position to your variables X and Y, you can use either "
 "$[X,Y] or [$X,Y]. (A $ anywhere indicates that the entire entry box is "
 "Python code)"
 msgstr ""
+"刺激の位置を変数XとYに設定するには, $[X,Y]または[$X,Y]のどちらでも使用できます. (どこかに$があると, "
+"入力欄全体がPythonコードとして扱われます)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "Use informative variable and Component names. You don't want to be trawling "
 "through your experiment looking for 'text_32'..."
-msgstr ""
+msgstr "変数やコンポーネントにはわかりやすい名前を付けましょう. 'text_32'を探して実験中を探し回りたくはないですよね..."
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
+#, fuzzy
 msgid "Use legacy keyboard backends?"
-msgstr ""
+msgstr "旧式のキーボードバックエンドを使用する?"
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
+#, fuzzy
 msgid "Virtual (keyboard + mouse)"
-msgstr ""
+msgstr "仮想 (キーボード + マウス)"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "You can comment/uncomment entire blocks of code with 'Ctrl + ?'"
-msgstr ""
+msgstr "'Ctrl + ?'でコードのブロック全体をコメント/コメント解除できます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You can control what is different in pilot mode (compared than run mode) in "
 "the 'Piloting' section of Preferences"
-msgstr ""
+msgstr "Pilotモードで(本番モードと比べて)何を変えるかは, 設定の'Piloting'セクションで制御できます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You can often right click on things to bring up a menu, e.g., to remove a "
 "trial."
-msgstr ""
+msgstr "多くの場合, 右クリックでメニューを表示できます. 例えば試行の削除などです."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You can see how many people used PsychoPy this month at "
 "[usage.psychopy.org](https://usage.psychopy.org)"
 msgstr ""
+"今月PsychoPyを使用した人数は[usage.psychopy.org](https://usage.psychopy.org)で確認できます"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You can use 'Ctrl + Z' and 'Ctrl + Shift + Z' to undo and redo many of the "
 "actions in the Builder, such as adding, deleting, or changing something."
 msgstr ""
+"Builderでは'Ctrl + Z'と'Ctrl + Shift + Z'で, 追加・削除・変更など多くの操作を元に戻したりやり直したりできます."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You can use a Survey Routine to embed a [Pavlovia "
 "Survey](https://pavlovia.org/docs/surveys/overview) in your experiment. "
 "Perfect for consent/debrief forms when running online!"
 msgstr ""
+"Survey Routineを使うと, [Pavlovia "
+"Survey](https://pavlovia.org/docs/surveys/overview)を実験に埋め込むことができます. "
+"オンライン実験の同意書やデブリーフィングに最適です!"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You can use the source. PsychoPy comes with all its source code included. If"
 " you know Python, you'd be surprised how easy it is to find your own bug-"
 "fixes."
 msgstr ""
+"ソースコードを活用しましょう. PsychoPyにはすべてのソースコードが含まれています. Pythonがわかれば, "
+"自分でバグを修正するのが驚くほど簡単なことに気付くでしょう."
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid "You should avoid snorting Pepsi"
-msgstr ""
+msgstr "ペプシを鼻から吸うのはやめましょう"
 
 #: psychopy-studio/src/lib/dialogs/tips/tips.svelte.js
+#, fuzzy
 msgid ""
 "You should wear sunscreen. (Where does it say these tips have to be "
 "original?!)"
-msgstr ""
+msgstr "日焼け止めを塗りましょう. (ヒントがオリジナルでなければならないなんて, どこに書いてありますか?!)"
 
 #: psychopy-studio/src/lib/pavlovia/ProjectPanel.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "{} is not synced to your local machine. Would you like to fetch it from "
 "Pavlovia?"
-msgstr ""
+msgstr "{}はローカルマシンに同期されていません. Pavloviaから取得しますか?"
 
 #: psychopy-studio/src/lib/pavlovia/search/SearchProjectsDlg.svelte
+#, fuzzy
 msgid "Search projects"
-msgstr ""
+msgstr "プロジェクトを検索"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/VenvChooser.svelte
+#, fuzzy
 msgid "(default)"
-msgstr ""
+msgstr "(既定)"
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/MonitorPage.svelte
+#, fuzzy
 msgid "+ New calibration"
-msgstr ""
+msgstr "+ 新規較正"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/PsychoPyBranchDlg.svelte
+#, fuzzy
 msgid "Branch:"
-msgstr ""
+msgstr "ブランチ:"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/FileCtrl.svelte
+#, fuzzy
 msgid "Browse for file..."
-msgstr ""
+msgstr "ファイルを参照..."
 
 #: psychopy-studio/src/lib/pavlovia/CommitDlg.svelte
+#, fuzzy
 msgid "Changed files:"
-msgstr ""
+msgstr "変更されたファイル:"
 
 #: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
+#, fuzzy
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 #: psychopy-studio/src/lib/ui/message/Message.svelte
+#, fuzzy
 msgid "Dismiss"
-msgstr ""
+msgstr "閉じる"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid ""
 "Each user on this computer gets control of their own PsychoPy version and "
 "plugins"
-msgstr ""
+msgstr "このコンピュータの各ユーザーが, 自分のPsychoPyのバージョンとプラグインを管理できます"
 
 #: psychopy-studio/src/routes/builder/flow/EntryPoint.svelte
 #: psychopy-studio/src/routes/builder/routines/EntryPoint.svelte
+#, fuzzy
 msgid "Entry point"
-msgstr ""
+msgstr "挿入位置"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "Environment location..."
-msgstr ""
+msgstr "環境の場所..."
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Experiment settings..."
-msgstr ""
+msgstr "実験の設定..."
 
 #: psychopy-studio/src/routes/builder/components/FilterDialog.svelte
+#, fuzzy
 msgid "Filter Components"
-msgstr ""
+msgstr "コンポーネントを絞り込み"
 
 #: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
+#, fuzzy
 msgid "Filter projects"
-msgstr ""
+msgstr "プロジェクトを絞り込み"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Find..."
-msgstr ""
+msgstr "検索..."
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/PsychoPyBranchDlg.svelte
+#, fuzzy
 msgid "Git repository:"
-msgstr ""
+msgstr "Gitリポジトリ:"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/PsychoPyBranchDlg.svelte
+#, fuzzy
 msgid "Install PsychoPy from Git"
-msgstr ""
+msgstr "GitからPsychoPyをインストール"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Install PsychoPy from Git..."
-msgstr ""
+msgstr "GitからPsychoPyをインストール..."
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid ""
 "Installing/removing a PsychoPy version or plugin installs/removes it for "
 "everyone"
-msgstr ""
+msgstr "PsychoPyのバージョンやプラグインのインストール/削除が全ユーザーに適用されます"
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
+#, fuzzy
 msgid "JSON file"
-msgstr ""
+msgstr "JSONファイル"
 
 #: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
+#, fuzzy
 msgid "Log in to show only projects belonging to you"
-msgstr ""
+msgstr "ログインすると自分のプロジェクトのみを表示できます"
 
 #: psychopy-studio/src/routes/runner/outputs/AlertsOutput.svelte
+#, fuzzy
 msgid "More info"
-msgstr ""
+msgstr "詳細情報"
 
 #: psychopy-studio/src/lib/pavlovia/search/FilterDlg.svelte
+#, fuzzy
 msgid "Only include projects by a specific user or group"
-msgstr ""
+msgstr "特定のユーザーまたはグループのプロジェクトのみを含めます"
 
 #: psychopy-studio/src/lib/pavlovia/search/SearchProjects.svelte
+#, fuzzy
 msgid "Only show projects belonging to you"
-msgstr ""
+msgstr "自分のプロジェクトのみを表示"
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Open file..."
-msgstr ""
+msgstr "ファイルを開く..."
 
 #: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Opening {}..."
-msgstr ""
+msgstr "{}を開いています..."
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+#, fuzzy
 msgid "Preferences..."
-msgstr ""
+msgstr "設定..."
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/KeyPressCtrl.svelte
+#, fuzzy
 msgid "Press keys, then click the tick to accept"
-msgstr ""
+msgstr "キーを押してから, チェックマークをクリックして確定してください"
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/Dialog.svelte
+#, fuzzy
 msgid "PsychoPy Devices"
-msgstr ""
+msgstr "PsychoPyデバイス"
 
 #: psychopy-studio/src/lib/dialogs/projects/manage/ManageProjectsDlg.svelte
+#, fuzzy
 msgid "PsychoPy Projects"
-msgstr ""
+msgstr "PsychoPyプロジェクト"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid ""
 "PsychoPy needs to setup Python in order to run your experiments. Where "
 "should we put Python on your machine?"
 msgstr ""
+"実験を実行するために, PsychoPyはPythonをセットアップする必要があります. このコンピュータのどこにPythonを配置しますか?"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/Dialog.svelte
 #: psychopy-studio/src/lib/dialogs/pluginManager/PsychoPyBranchDlg.svelte
+#, fuzzy
 msgid "Python environment:"
-msgstr ""
+msgstr "Python環境:"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "Python environments will be created in:"
-msgstr ""
+msgstr "Python環境の作成先:"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "Python is only setup once per version of PsychoPy"
-msgstr ""
+msgstr "PythonのセットアップはPsychoPyのバージョンごとに1回だけです"
 
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#, fuzzy
 msgid "Report bug..."
-msgstr ""
+msgstr "バグを報告..."
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/VenvChooser.svelte
+#, fuzzy
 msgid "Scanning Python environments..."
-msgstr ""
+msgstr "Python環境を検索中..."
 
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
+#, fuzzy
 msgid "Selection"
-msgstr ""
+msgstr "選択項目"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "Shared folder (recommended for classrooms)"
-msgstr ""
+msgstr "共有フォルダ (授業・実習用に推奨)"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid ""
 "System admins can control who is allowed to install PsychoPy versions and "
 "plugins"
-msgstr ""
+msgstr "PsychoPyのバージョンやプラグインをインストールできるユーザーをシステム管理者が制御できます"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/LocaleCtrl.svelte
+#, fuzzy
 msgid "System language"
-msgstr ""
+msgstr "システムの言語"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "This can use a lot of space on machines with lots of users"
-msgstr ""
+msgstr "ユーザーが多いコンピュータでは多くのディスク容量を使用する可能性があります"
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/PsychoPyBranchDlg.svelte
+#, fuzzy
 msgid "This will run the following command on OK:"
-msgstr ""
+msgstr "OKを押すと次のコマンドが実行されます:"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "User folder (recommended for most users)"
-msgstr ""
+msgstr "ユーザーフォルダ (ほとんどのユーザーに推奨)"
 
 #: psychopy-studio/src/lib/python/ChooseDirectory.svelte
+#, fuzzy
 msgid "Where to setup Python..."
-msgstr ""
+msgstr "Pythonのセットアップ先..."
 
 #: psychopy/psychopy/preferences/hints.py
+#, fuzzy
 msgid "library to use for reading cameras"
-msgstr ""
+msgstr "カメラの読み取りに使用するライブラリを指定します"
 
 #: psychopy-studio/src/routes/runner/outputs/AlertsOutput.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "{} Alert"
-msgstr ""
+msgstr "{}アラート"
 
 #: psychopy-studio/src/lib/ui/paramCtrls/ctrls/ConditionsCtrl.svelte
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "{} conditions, with {} parameters"
-msgstr ""
+msgstr "{}条件, {}パラメータ"
 
 #~ msgid "Add multiple items"
 #~ msgstr ""
